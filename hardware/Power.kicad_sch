@@ -1003,6 +1003,17 @@
 					)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(show_name no)
@@ -1306,25 +1317,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -3361,6 +3370,12 @@
 		(uuid "337b9a2b-87ac-42a1-bddd-fbddb66c213f")
 	)
 	(junction
+		(at 154.94 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4dafc93e-a41b-4206-838e-bf9e8adc58fa")
+	)
+	(junction
 		(at 233.68 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3770,7 +3785,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 137.16) (xy 160.02 137.16)
+			(xy 147.32 137.16) (xy 154.94 137.16)
 		)
 		(stroke
 			(width 0)
@@ -4230,6 +4245,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 139.7) (xy 154.94 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be221c3d-ab38-4088-a4b5-2dd937c79fe1")
+	)
+	(wire
+		(pts
 			(xy 217.17 58.42) (xy 219.71 58.42)
 		)
 		(stroke
@@ -4357,6 +4382,16 @@
 			(type default)
 		)
 		(uuid "d696acf6-cc8b-4c1b-91d6-d1993b80dfec")
+	)
+	(wire
+		(pts
+			(xy 154.94 137.16) (xy 160.02 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a8a68b-cacf-401e-bd0f-9ef507e48e14")
 	)
 	(wire
 		(pts
@@ -4776,11 +4811,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9269fee-aabb-413c-b775-0a5777f38736")
+			(uuid "3ed307f9-ba27-41d6-8c87-f1fe50b37444")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "T10")
 					(unit 1)
 				)
@@ -4959,14 +4994,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "19c3bd3f-03d7-4cbc-922f-cf82e4a6dcc5")
+			(uuid "7e663ff3-d894-48eb-a24c-77f46b9d2f9b")
 		)
 		(pin "2"
-			(uuid "45f493ab-82fc-47f0-8862-e94039aebff5")
+			(uuid "ea241c83-b3b3-44de-824d-4e4d147f0c4a")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C25")
 					(unit 1)
 				)
@@ -5062,14 +5097,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e88f101f-56cd-49ea-886a-ac45ce5dbf45")
+			(uuid "7238c50b-a862-4cd5-8124-e9a2b4812833")
 		)
 		(pin "2"
-			(uuid "00a3eec0-0697-4f19-8184-87c6d2e31d24")
+			(uuid "4ae49abf-f70d-4dcb-9ed4-09fb4ec10d35")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C36")
 					(unit 1)
 				)
@@ -5143,11 +5178,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "57a43e28-faf9-470b-961f-56c4bbb6f13b")
+			(uuid "8ed5b307-b1a9-42b8-8878-d3f4a0dd042b")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -5220,11 +5255,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a80ed230-201b-49ac-b56e-cb6a0886a336")
+			(uuid "565a8597-2388-447a-9f50-03ca47f74374")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -5347,11 +5382,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "bc0a4406-1ca7-4470-96e3-b1b367f8ba4c")
+			(uuid "3e961e36-a1c1-43b4-95b6-acd932e8fdcc")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "T8")
 					(unit 1)
 				)
@@ -5506,14 +5541,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "047dc828-6898-498b-b2cf-9c8343b53a52")
+			(uuid "905801d5-4b46-44ce-9a6f-ea5b725837ea")
 		)
 		(pin "1"
-			(uuid "d16488dc-c1a5-46d2-879b-2e70d1539412")
+			(uuid "43deb0e9-d512-462d-893d-d4fd005dad0b")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "R6")
 					(unit 1)
 				)
@@ -5586,11 +5621,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "32b7e888-887c-4197-9d17-dd237af0b0a6")
+			(uuid "1bc0d9d1-412f-4d2c-a4bc-f58d788342d8")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -5726,14 +5761,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "d7588502-8cec-45e0-9344-147497de0e2a")
+			(uuid "bee25338-0d5b-45eb-b3ff-0e0270eedd53")
 		)
 		(pin "1"
-			(uuid "bc5e55d8-9b06-478a-83ea-8f4b40082aa2")
+			(uuid "f900f980-f8f3-4d98-a975-f1d6f22cbc0b")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C16")
 					(unit 1)
 				)
@@ -5858,11 +5893,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "9d29f306-3819-4a8b-816d-77194f0b2fd1")
+			(uuid "3df1c34f-b428-476a-82ac-e673fb4724c9")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "T3")
 					(unit 1)
 				)
@@ -5924,7 +5959,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 224.79 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6041,14 +6076,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "305c140b-eb2a-4237-9784-ad057337e67b")
+			(uuid "0548e4f1-a0de-4e0f-a001-760dc4fc125a")
 		)
 		(pin "2"
-			(uuid "e3154444-b60e-43eb-acbd-b1247cffb99e")
+			(uuid "6155d8f5-104c-4eb9-ba98-4e9dfb810f35")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "R13")
 					(unit 1)
 				)
@@ -6123,11 +6158,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b4f478a2-bb24-4c2a-9b2d-4ac66069848e")
+			(uuid "21701a49-3e5f-43fc-8aa9-541f5858465c")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -6202,11 +6237,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c193770d-2770-485f-b1f0-4eb5b44ef747")
+			(uuid "96318c9e-995c-40cb-8868-9338c0b0e4b7")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#FLG07")
 					(unit 1)
 				)
@@ -6342,14 +6377,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "bacd549c-b47c-40f3-9ff7-4dd317fe722e")
+			(uuid "e2c2b5b1-539b-4374-98c2-17b0441eb10c")
 		)
 		(pin "2"
-			(uuid "0ab910f1-94de-4a72-8a9b-9c82a815068e")
+			(uuid "1c70f2c8-1898-4562-bac3-6c5e6adaad2e")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C28")
 					(unit 1)
 				)
@@ -6424,11 +6459,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "5a23f0bc-0d27-4aa7-8b80-8776ba4a0f8e")
+			(uuid "3f99b132-1954-4d6c-972e-20d556943732")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -6564,14 +6599,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb375eac-950d-4d6a-b756-f4ac4f525f31")
+			(uuid "c8f64a2a-a640-4672-b25c-e0b88c85a4cb")
 		)
 		(pin "2"
-			(uuid "c8c0de5d-9aaa-4231-8f66-e226ee179ac5")
+			(uuid "8d4772ed-aab4-4e20-bd8a-a561ee6b177e")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "R14")
 					(unit 1)
 				)
@@ -6644,11 +6679,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5111f76-de68-47d7-ad35-e3221d16009d")
+			(uuid "662da2c7-bd2f-4c86-8bc8-684b5308a008")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -6785,14 +6820,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b59d929-658e-4458-9ff5-c260e359c0bc")
+			(uuid "826fd424-c9c9-47ba-bdaf-e1dd8640ae56")
 		)
 		(pin "2"
-			(uuid "1f7a15bd-d680-4417-8f7b-05b4104db6ce")
+			(uuid "ec4a84db-df31-4d0b-a8bf-dec1915a380b")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "F5")
 					(unit 1)
 				)
@@ -6886,17 +6921,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "3d1566a8-5afd-460c-bd56-674cb596b9b9")
+			(uuid "28c82e88-ff06-4247-8c95-fb2149f6c3fc")
 		)
 		(pin "3"
-			(uuid "ab33710f-6551-48d6-91f1-343387d743c9")
+			(uuid "5183beeb-95fe-4f1c-93c7-b2057cf54e74")
 		)
 		(pin "1"
-			(uuid "12b73fc4-c9ed-447c-9898-63ca3876bf9a")
+			(uuid "193e07d2-734f-4485-9be6-f466c435944a")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -7029,17 +7064,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "cde36be7-70e8-492c-a6e9-d9ae7f919e71")
+			(uuid "be6a4829-d126-4ecc-a309-186379c06106")
 		)
 		(pin "2"
-			(uuid "b4df327f-380d-45d9-abcd-58a0ff0dc83c")
+			(uuid "84d2724d-f053-4843-a95e-4013700f78f7")
 		)
 		(pin "3"
-			(uuid "feb06d11-2e35-4dd1-ae28-4582ebe82a03")
+			(uuid "adb015c0-6825-48d4-bd0b-1ba54bb61c3a")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "U2")
 					(unit 1)
 				)
@@ -7101,7 +7136,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 180.34 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7218,14 +7253,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f9027c6-e200-4904-91d1-f42db6a250d8")
+			(uuid "f316036d-49f1-43c0-9b52-03873ef3d850")
 		)
 		(pin "2"
-			(uuid "f03d81ac-a98b-40ca-a128-1417a3f92b64")
+			(uuid "d20d479a-22d1-4165-8c3a-9de46a4d31a5")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "R11")
 					(unit 1)
 				)
@@ -7321,14 +7356,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "b43228ef-9dc0-4c4f-a7f1-5989ae258ad8")
+			(uuid "58c7fe2b-8ec9-4e24-90e0-666e801d99f3")
 		)
 		(pin "1"
-			(uuid "a45533de-d7a2-4c7c-be9d-8c35aa04759a")
+			(uuid "04ef1218-1404-49a7-8645-d10ea4a09f6b")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C37")
 					(unit 1)
 				)
@@ -7403,12 +7438,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "97157ada-7396-42af-bb26-974809d94b08")
+			(uuid "f717e52d-dd6c-4f40-8bf5-f4ca27a922b2")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 154.94 139.7 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "62185281-6c2c-4128-a32c-2fdaaac9aeaf")
+		(property "Reference" "#FLG03"
+			(at 154.94 141.605 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_FLAG"
+			(at 156.21 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 154.94 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6c742eb-1925-49d2-8c82-941044ee1e21")
+		)
+		(instances
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -7609,14 +7722,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a378b759-ee32-40ad-b59b-895ac63c7fd5")
+			(uuid "1791129a-6ef9-4eab-921f-61085fc88777")
 		)
 		(pin "2"
-			(uuid "5ecb054c-6fbe-4b43-8936-4ec4314f9f71")
+			(uuid "6f002e8c-e094-4b49-b23a-ab0c442ff1f5")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C24")
 					(unit 1)
 				)
@@ -7741,11 +7854,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "21a48a44-8dee-4b51-a371-37b283e76016")
+			(uuid "b8fe800e-17b7-40ab-bb49-0565f72fcdd7")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "T11")
 					(unit 1)
 				)
@@ -7881,14 +7994,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c4b49c4e-b618-4e1a-8d6c-3ce4ec1f2286")
+			(uuid "e0e7fe82-ac05-4c22-947d-7540ff342853")
 		)
 		(pin "2"
-			(uuid "9b254ed2-b00d-4c9d-bbed-69f96df3dcd9")
+			(uuid "f6232a6d-79ce-4fc9-97a5-60de5dfeb281")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C19")
 					(unit 1)
 				)
@@ -8024,14 +8137,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7858e42-a318-4a86-8657-c7c38ba2c6c7")
+			(uuid "389e7d74-b4d4-49da-bc6e-32533a6fcc90")
 		)
 		(pin "2"
-			(uuid "79a5844c-c7fd-4fe0-8d87-e8e6cd7684cf")
+			(uuid "b00b4480-1f73-4160-aeb7-7f66cac82bfb")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C26")
 					(unit 1)
 				)
@@ -8186,14 +8299,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e38c2fa8-13a4-4743-b6fe-8ecd55217b03")
+			(uuid "19f944ed-a07e-4bd8-ac53-4bcca470f261")
 		)
 		(pin "2"
-			(uuid "55f934fa-d55e-4843-be82-d8558925a291")
+			(uuid "b92bbebc-ce54-4858-a381-5f3dff815307")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "D5")
 					(unit 1)
 				)
@@ -8329,14 +8442,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "8621a373-78ab-4fe4-be58-0ad865022f3b")
+			(uuid "48d81192-d2ca-4c73-ad7d-3942537a1dc4")
 		)
 		(pin "1"
-			(uuid "71ccd8f2-0326-46b5-afd9-23bab2d5b93a")
+			(uuid "a5c6ce4c-8878-4fdb-9768-e9c21ad19ab3")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C14")
 					(unit 1)
 				)
@@ -8411,11 +8524,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d74a5b65-29b4-41cd-9732-692674b79f63")
+			(uuid "3de4cd2f-c092-4f78-9311-bcce4efe83c4")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#FLG06")
 					(unit 1)
 				)
@@ -8489,11 +8602,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f914c1eb-ef5f-43c6-9f33-34f427d03e99")
+			(uuid "1c220e7d-5e61-4fb7-8b6b-b832063e371f")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -8568,11 +8681,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "553f31d0-a3ff-4043-b4f7-cb35845a4fd7")
+			(uuid "d5521eeb-141b-4e9c-bb3f-28e5a8510453")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -8709,14 +8822,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6aa95b5e-9993-4714-a0ff-396556b16f61")
+			(uuid "69cbd849-6c3a-45ed-b3bc-3c1796632514")
 		)
 		(pin "2"
-			(uuid "d9e475d3-61b1-459c-bc63-629beb7122e3")
+			(uuid "15df5a15-cc18-4909-9459-01ec373de590")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "F1")
 					(unit 1)
 				)
@@ -8917,14 +9030,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2c4d3232-c3a9-4f37-82f9-17c55c8cad71")
+			(uuid "aa899d9a-4da5-4bcd-94da-31f941717034")
 		)
 		(pin "2"
-			(uuid "a51e3d9e-768c-4e79-8150-4c18d3c18325")
+			(uuid "2fb324f2-3b47-42c4-b421-258478d4a2e4")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C29")
 					(unit 1)
 				)
@@ -9130,14 +9243,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "66f57eb2-f460-4d93-9c00-971d91021534")
+			(uuid "333f131e-e66f-4adb-9dd5-c299f7bca50f")
 		)
 		(pin "2"
-			(uuid "57714329-6ac6-4be6-9241-fdc113be765e")
+			(uuid "708ddc55-11b0-4d1c-8aff-d969252da476")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "L3")
 					(unit 1)
 				)
@@ -9212,11 +9325,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "96fbbb67-5361-48fb-87f5-200d4bd51e5d")
+			(uuid "8678f129-d6c3-43fd-866d-5cf47d9fc880")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#PWR013")
 					(unit 1)
 				)
@@ -9350,14 +9463,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9c68bd56-6dc2-4d0c-bed0-735b3127e3c4")
+			(uuid "012cf8a0-e573-4ba8-910e-3f249ea4ab65")
 		)
 		(pin "2"
-			(uuid "239afe9d-c8ca-4b23-a895-f29d0ea89b55")
+			(uuid "81aff933-81a2-463a-b84e-5e4ea7574fcc")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C27")
 					(unit 1)
 				)
@@ -9494,14 +9607,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "251916ef-6a30-4b96-8560-17d86100ab63")
+			(uuid "f107733f-1a94-4221-b4a6-65cbc437760f")
 		)
 		(pin "2"
-			(uuid "052e1817-5779-4da6-9b59-3f72fc796adf")
+			(uuid "af7df9bf-6134-4deb-9287-311d87bccc91")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "F4")
 					(unit 1)
 				)
@@ -9626,11 +9739,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "389ccd54-76b8-4afc-abe9-3ffb26a70ea7")
+			(uuid "da97b2db-8e76-4c43-8574-784d26a341bc")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "T9")
 					(unit 1)
 				)
@@ -9703,11 +9816,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2a8dcdc-d248-4529-b4ef-2a608f68715e")
+			(uuid "588ed1a0-c044-40f3-8c55-58b833060350")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -9843,14 +9956,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "027af3d3-aab5-4ccd-be3c-357c1883993b")
+			(uuid "c97bda91-e216-4421-9e0b-17f7385147f6")
 		)
 		(pin "2"
-			(uuid "5e9f0a5c-4871-4bfb-8cf9-69d08db84470")
+			(uuid "a6ee2940-1690-42c5-9d36-24595165f4c8")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "D4")
 					(unit 1)
 				)
@@ -10051,14 +10164,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "99ff1f97-27fd-4934-9fd1-4035b4a05510")
+			(uuid "a4aa8dd5-3c35-40a0-8ed3-5eeea11ee673")
 		)
 		(pin "2"
-			(uuid "fec3d629-fd62-42d5-9560-d7fb4ccc78fb")
+			(uuid "5eff9724-5abc-4d37-b809-3685d4bd203c")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C30")
 					(unit 1)
 				)
@@ -10259,14 +10372,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "288bdd9e-8c14-4f43-8cf2-1a6ee43d864c")
+			(uuid "c1c1f165-79c2-4995-997e-c216ca613b97")
 		)
 		(pin "2"
-			(uuid "1e2f1b85-a279-4597-a338-d44556823e01")
+			(uuid "bfb8ed88-daad-4a2f-aa38-453014eedac2")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C31")
 					(unit 1)
 				)
@@ -10402,14 +10515,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f897e87c-4ce2-4e74-9adc-a384c8aedae8")
+			(uuid "a0f7adb3-e412-41f3-aa23-205a1cb5bba8")
 		)
 		(pin "2"
-			(uuid "d0056bfc-95c0-4f14-a4e2-1b7db9093dde")
+			(uuid "39e5abad-82cc-40a1-a126-39195b877503")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "C15")
 					(unit 1)
 				)
@@ -10606,26 +10719,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "967c204f-a871-40e0-bc5f-3bc951f39068")
+			(uuid "5f80b9f0-f0a6-4241-bd23-e0e9171c626f")
 		)
 		(pin "3"
-			(uuid "00a342d7-92ce-48cb-b631-05326f812214")
+			(uuid "9e31c4dd-caf5-4c1f-b32b-cacdbab68193")
 		)
 		(pin "4"
-			(uuid "d270aff5-5db1-46ac-b6e3-308ea92670bb")
+			(uuid "ee1037b1-f636-488d-8f9f-0bdd84f985d3")
 		)
 		(pin "5"
-			(uuid "24db5a1f-aa87-4082-b269-c86d8e95dfab")
+			(uuid "3a30003b-7b3d-482b-a8d0-dc64c0944d85")
 		)
 		(pin "6"
-			(uuid "904b67ba-8000-4d8e-88e0-4a1cd685d911")
+			(uuid "955f09c1-04b1-4005-a3e0-be116403a6b2")
 		)
 		(pin "1"
-			(uuid "bae7da87-ada7-47fa-8248-28f6fc1a2092")
+			(uuid "e25ab54a-7e1e-4ac9-847b-f0452020cb98")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "IC1")
 					(unit 1)
 				)
@@ -10748,11 +10861,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "831080bb-1cef-4b48-8809-369578a409d6")
+			(uuid "03a89b19-727b-42ec-8d08-c5ca318a91d6")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "TP1")
 					(unit 1)
 				)
@@ -10887,14 +11000,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d964842-740e-4192-b167-4ab9b5b8b1fe")
+			(uuid "34ed0cba-ff3e-48a9-96a1-da05c43f903b")
 		)
 		(pin "2"
-			(uuid "9ffbd825-0edc-4967-93b6-15d4e27fc716")
+			(uuid "c56b6ebb-4674-4ce7-af10-932d61dabe82")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "D7")
 					(unit 1)
 				)
@@ -10956,7 +11069,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 219.71 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -11095,14 +11208,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7e0e325-947a-4b01-b945-5478beda5858")
+			(uuid "09be6113-d1e2-4be2-ba96-732b97b15ffe")
 		)
 		(pin "2"
-			(uuid "ec372743-6cd1-4dd5-b3ed-9da11c7b94e0")
+			(uuid "caed9a91-8c55-4745-b3e4-01f9afcfe522")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "R12")
 					(unit 1)
 				)
@@ -11237,14 +11350,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c46b8b9a-426b-4d47-8141-2a6e95c421f6")
+			(uuid "3fafe819-abef-48e6-8bf9-1a38fae490a3")
 		)
 		(pin "2"
-			(uuid "48a367ab-cefa-464c-b4bc-fb292bdcb93a")
+			(uuid "cbd4af50-881a-430a-b59a-488a1a863a28")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/7bc45c3a-dec5-4fdf-bc39-c82d4c0ff55e"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/635d81f8-3292-4020-a773-efd949e25d68"
 					(reference "D6")
 					(unit 1)
 				)

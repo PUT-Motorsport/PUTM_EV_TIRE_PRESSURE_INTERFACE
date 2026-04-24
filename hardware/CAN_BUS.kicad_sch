@@ -342,25 +342,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -461,6 +459,454 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_1"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_2"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_2_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_2_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_3"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_3_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_3_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "GND_4"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_4_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_4_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1455,10 +1901,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1476,7 +1926,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1508,7 +1958,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1530,7 +1980,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1568,12 +2018,11 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+3.3V"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2678,14 +3127,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "d77f5335-88ce-424d-9463-4fa8f728d58b")
+			(uuid "775277c2-b24c-4c1c-99c2-db9639104461")
 		)
 		(pin "1"
-			(uuid "5e55768c-e4ff-48a2-b5cc-caa632c1e775")
+			(uuid "80d1c630-b821-4223-b5c3-79b9a249baff")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "FB5")
 					(unit 1)
 				)
@@ -2770,14 +3219,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "6b4bc0ff-ae52-46c2-9417-f0bcf1648d24")
+			(uuid "f2340780-6b3d-4159-b7fd-b186e46ecf91")
 		)
 		(pin "1"
-			(uuid "26b478b2-c68b-4793-8a6e-e8e39d83dd05")
+			(uuid "d34c5672-aa01-472e-b364-176d50b00b49")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "FB1")
 					(unit 1)
 				)
@@ -2859,14 +3308,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "6cb1fe66-ecae-4a32-9a63-1718a5d0a736")
+			(uuid "1a21f228-06e1-435e-b82e-eb2bfa506902")
 		)
 		(pin "1"
-			(uuid "65e16099-3b23-4fa2-959d-b65b64254d43")
+			(uuid "f58ffceb-229c-4f8b-86ae-128da03cd3d4")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "C33")
 					(unit 1)
 				)
@@ -2950,14 +3399,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "459bdede-8c9f-448f-97f2-b26b48802381")
+			(uuid "455df93f-5c5f-4870-b6ec-c2b5e99f3b3f")
 		)
 		(pin "1"
-			(uuid "556695d8-fdf8-479e-a467-41b96452be75")
+			(uuid "2c76c304-e637-49ce-a09b-40ced0168694")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "C34")
 					(unit 1)
 				)
@@ -3040,14 +3489,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "93894209-d854-43aa-bc29-212231d93bb0")
+			(uuid "6e9cc1f5-f179-4b38-8720-52a4401ba5dc")
 		)
 		(pin "1"
-			(uuid "4f1c877f-12f4-471d-9c39-7bb061bd4676")
+			(uuid "d5a87cdf-6d1d-4f7d-93c8-bd171f10ce14")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "C32")
 					(unit 1)
 				)
@@ -3132,14 +3581,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "2e09543e-083d-47b0-ab83-7e0e20e1e268")
+			(uuid "dba2d3f1-9990-4bbd-a106-20139cba4379")
 		)
 		(pin "1"
-			(uuid "5d1e3e5d-be33-4ec0-b3e4-f9fb222296a4")
+			(uuid "f63a804a-794d-4523-9ada-e014b83cf052")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "C41")
 					(unit 1)
 				)
@@ -3221,14 +3670,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "2a86823e-c46a-445b-9526-27e3a49d0b0b")
+			(uuid "ed22ad03-bc8c-46fe-af40-9696470be3a8")
 		)
 		(pin "1"
-			(uuid "007291a9-a5d6-4ce6-81b1-ff3784930225")
+			(uuid "ec0205f5-37b9-41e5-85b9-b7c0ec286b62")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "C46")
 					(unit 1)
 				)
@@ -3301,11 +3750,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "62f110a4-7936-4e1b-866b-5ef760aa328f")
+			(uuid "49ca19e2-c967-41af-93d1-5066f0ff3fa7")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "#PWR061")
 					(unit 1)
 				)
@@ -3313,6 +3762,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 149.86 116.84 0)
 		(unit 1)
@@ -3379,12 +3829,90 @@
 			)
 		)
 		(pin "1"
-			(uuid "8146d5e5-8d1f-44e8-8af1-9391f6876cda")
+			(uuid "aaa52b49-a7d7-4b2b-b278-57da78da84c7")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 171.45 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d5e987-761a-44b3-9ce0-d6252606f1b7")
+		(property "Reference" "#PWR027"
+			(at 171.45 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 171.45 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 171.45 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b50c048f-8e44-486f-936d-b18915f79468")
+		)
+		(instances
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3469,68 +3997,68 @@
 			)
 		)
 		(pin "5"
-			(uuid "349da4f9-3734-421a-9dbc-e8c7a9e7b3d8")
+			(uuid "4489f066-f3fa-4b14-81a6-7790abd25b53")
 		)
 		(pin "4"
-			(uuid "192a494e-f820-4291-8014-c943eb492696")
+			(uuid "6ea56528-590e-4913-b0c0-41277beaabba")
 		)
 		(pin "1"
-			(uuid "e6b8df62-96a4-48d8-88b2-8f2fca4d4ea9")
+			(uuid "3715d4cc-0ca1-4ab1-9a62-782b272bf25c")
 		)
 		(pin "11"
-			(uuid "24ffd7ad-ba6c-4dcc-b46b-ec7fbed6abea")
+			(uuid "79a63729-88ed-4c54-b70a-541f559c11b4")
 		)
 		(pin "12"
-			(uuid "62d8fa66-969b-427f-a757-84572e7c2148")
+			(uuid "21b91ca6-636d-4dd2-96fb-df51f68cb036")
 		)
 		(pin "14"
-			(uuid "f6f5b383-d668-42aa-924a-54afdb88e1ba")
+			(uuid "36c5c63f-d9b1-40f9-bf30-5e9d971b71ff")
 		)
 		(pin "6"
-			(uuid "68c1d765-b99c-4a82-b7ae-2fe92edaa0bc")
+			(uuid "6f4911b6-52d2-4711-b3b9-108537f8b400")
 		)
 		(pin "19"
-			(uuid "fb2b3e4c-4ab8-43b5-a942-31442b290da9")
+			(uuid "9e035f98-64a7-4a7e-81a2-07e1487adf8b")
 		)
 		(pin "3"
-			(uuid "7777b765-3c08-4c73-8fa5-c90785d29560")
+			(uuid "ac85360c-5bd4-4562-90e5-617a0c40c154")
 		)
 		(pin "18"
-			(uuid "80e72104-cf7e-4ee9-ad29-6c3113602544")
+			(uuid "0ff9de60-97e0-4f20-b0ba-782b99b19560")
 		)
 		(pin "20"
-			(uuid "c3113b9a-490e-49df-a2e8-e2a957f4dce2")
+			(uuid "48e8a2a8-0769-4ea4-8b8f-79d85880cd16")
 		)
 		(pin "8"
-			(uuid "f8e03ff0-d8df-4597-8a0b-8bdb56d54b0d")
+			(uuid "7ffbad40-7f81-4a39-a8b8-28fba83344ef")
 		)
 		(pin "15"
-			(uuid "dbe80d1b-2737-47be-a064-3498fc5624cf")
+			(uuid "92f57b81-c426-4a36-8b2d-43808f7f10f3")
 		)
 		(pin "2"
-			(uuid "6abf6881-9fc1-4171-8e8b-18f3cc8e6604")
+			(uuid "8cff0831-741d-4380-99c7-3a46675ffd04")
 		)
 		(pin "13"
-			(uuid "c6eccfa6-0eb6-48cc-9540-39140455cb3d")
+			(uuid "f05ae6e5-6e27-447f-9285-d58c9b128209")
 		)
 		(pin "16"
-			(uuid "79b8d187-6e37-4cd7-af3b-803283dc7d0e")
+			(uuid "529425f9-b6a6-4258-bb58-670d0e70261c")
 		)
 		(pin "9"
-			(uuid "c51b76ac-1b4d-4b4b-b87c-934c98592ebc")
+			(uuid "80bc2ab3-000c-4705-b436-334c6f08fb19")
 		)
 		(pin "10"
-			(uuid "db691253-b2d6-45b1-b79c-76b9010d4e82")
+			(uuid "af637a72-3e4a-4afc-8111-8bcc081ed5ad")
 		)
 		(pin "17"
-			(uuid "a175b5a5-4ed0-4f72-9531-4591ce0d0983")
+			(uuid "7e7ba92f-58d8-4741-98c2-6c9a260159f9")
 		)
 		(pin "7"
-			(uuid "dd6da7f1-19f5-45a1-8897-4506029bf708")
+			(uuid "154a6185-44e2-47da-9bbe-d2dff1292e02")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "U7")
 					(unit 1)
 				)
@@ -3615,14 +4143,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a114a929-9ab6-49a2-b9d9-cff28f67c2a8")
+			(uuid "e0d1229c-1645-47cf-af87-3509a16621f6")
 		)
 		(pin "1"
-			(uuid "6720747f-f196-4dc8-9935-3702faec1f30")
+			(uuid "070eb78b-a150-4ad1-bbc0-5006980067c5")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "FB2")
 					(unit 1)
 				)
@@ -3630,6 +4158,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_4")
 		(lib_id "power:GND")
 		(at 101.6 134.62 0)
 		(unit 1)
@@ -3696,11 +4225,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a747be22-3b41-4351-bb3d-8d6bd87cd5b1")
+			(uuid "1e7c7767-add6-45d1-9c70-0d71ad275139")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "#PWR0130")
 					(unit 1)
 				)
@@ -3708,6 +4237,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_3")
 		(lib_id "power:GND")
 		(at 148.59 62.23 0)
 		(unit 1)
@@ -3774,11 +4304,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "a2076784-1d0b-4396-a846-80f0409f31bd")
+			(uuid "0d26ae78-ef63-4682-97bd-4b31d07f224b")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "#PWR063")
 					(unit 1)
 				)
@@ -3860,14 +4390,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "298d166c-17e7-492a-a931-d1bd55ac4484")
+			(uuid "4fd7b890-d706-4156-9d43-a5534cca1fd9")
 		)
 		(pin "2"
-			(uuid "f82abfba-24a7-471e-b99b-d09888b5a461")
+			(uuid "5658ce7e-8d2a-456f-824b-4ff0796c3698")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "R15")
 					(unit 1)
 				)
@@ -4056,14 +4586,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "4d20092a-5b89-4f2b-a90b-b3f48b87f134")
+			(uuid "0c1a6019-4eed-486a-8dda-432ddaf0126e")
 		)
 		(pin "1"
-			(uuid "e3399d85-0b34-4e47-9903-2ba5a958072d")
+			(uuid "66508086-5039-4524-8172-f5679fea90c0")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "C66")
 					(unit 1)
 				)
@@ -4071,6 +4601,7 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 193.04 62.23 0)
 		(unit 1)
@@ -4137,11 +4668,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8db0f60-8dec-47b7-bc30-44388945654b")
+			(uuid "b5788583-91b5-4388-939f-19e1d550385c")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "#PWR064")
 					(unit 1)
 				)
@@ -4216,11 +4747,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "cecd0e50-08ca-41c9-b6e4-b2d3cb9ed144")
+			(uuid "9af6b935-691e-4013-a30b-39fcea6f7aa3")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "#FLG09")
 					(unit 1)
 				)
@@ -4293,11 +4824,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "78b8e703-49e8-4d1c-9962-7ac86c00bc39")
+			(uuid "47ae48a1-a0e6-4aca-9299-0dcf47c0ba69")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "#PWR065")
 					(unit 1)
 				)
@@ -4381,14 +4912,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "7804ed9a-79c9-4ae9-bc39-32d76cb91405")
+			(uuid "ebd9014b-8835-4db4-b629-01be263f1173")
 		)
 		(pin "1"
-			(uuid "ad37d78e-836c-4826-9e26-ee671418d51f")
+			(uuid "3fad577f-55bb-45cd-953f-bd0194e1ade0")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "C39")
 					(unit 1)
 				)
@@ -4470,14 +5001,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "a04843c9-5633-4ba7-9914-f27308513e48")
+			(uuid "7e25a858-66d8-4cf6-b170-65a6861769ee")
 		)
 		(pin "1"
-			(uuid "1e828bc7-4e29-4af8-b3f2-31a084669fa8")
+			(uuid "c13b1fbd-5607-4f42-98fd-018a35f48f27")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "C40")
 					(unit 1)
 				)
@@ -4561,14 +5092,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "cb9c5671-e709-4fb2-b341-0d8f4beca1a5")
+			(uuid "10b3c299-601e-4860-a26c-a0d14eabf96d")
 		)
 		(pin "1"
-			(uuid "ca177023-558f-45cc-9ad8-c8d83d84b7f1")
+			(uuid "56550b85-96f2-4d0c-9e56-0ec1f754c16c")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "FB3")
 					(unit 1)
 				)
@@ -4643,11 +5174,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e6437b0-181e-48e3-b7e3-8dfd5b1b781f")
+			(uuid "040cc217-0299-4c7c-9fa3-9c6d73641aea")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "#FLG013")
 					(unit 1)
 				)
@@ -4730,93 +5261,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e05b06ca-2a60-45a1-a4c6-eecea9e2c43f")
+			(uuid "aa7b7901-6975-438a-bbfa-811b572e6cd0")
 		)
 		(pin "1"
-			(uuid "b3b8f703-cfd5-4668-b82b-5a6087230177")
+			(uuid "b37bf3a2-f973-4bdf-89af-4666cce7e2e6")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/dbc6a5aa-2d95-4459-b7f6-2624d2e5ec7c"
 					(reference "C45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 171.45 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f6987bc9-0da7-4885-9708-c32aae967c12")
-		(property "Reference" "#PWR062"
-			(at 171.45 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 171.45 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b2884ac0-706d-4c90-b890-a697400868d7")
-		)
-		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/71c5b35f-a855-41f7-848c-2e77ad8cba2c"
-					(reference "#PWR062")
 					(unit 1)
 				)
 			)

@@ -400,25 +400,23 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0.762 0.508 0)
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "R_Small"
-				(at 0.762 -1.016 0)
+				(at 1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -529,7 +527,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -554,7 +552,7 @@
 					)
 				)
 			)
-			(property "Value" "+3.3V"
+			(property "Value" "+3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -586,7 +584,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -608,7 +606,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_0_1"
+			(symbol "+3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -646,7 +644,7 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
+			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -785,68 +783,64 @@
 		)
 	)
 	(junction
-		(at 96.52 87.63)
+		(at 123.19 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18cafda3-cdbf-444e-8d19-ae1c5e56c7a9")
 	)
 	(junction
-		(at 113.03 63.5)
+		(at 139.7 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fc44761-44bf-4f23-94b7-3826441c3af9")
 	)
 	(junction
-		(at 101.6 63.5)
+		(at 128.27 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30db7fa2-8bd3-499f-8dd5-96013d17f68e")
 	)
 	(junction
-		(at 107.95 80.01)
+		(at 134.62 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "455b66f3-192c-4855-a26a-a39eb675d722")
 	)
 	(junction
-		(at 101.6 82.55)
+		(at 128.27 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6ee5322-2087-4276-9312-44d6b430466d")
 	)
 	(junction
-		(at 96.52 63.5)
+		(at 123.19 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6575018-7616-44cd-bfe9-9c79493c046d")
 	)
 	(junction
-		(at 107.95 63.5)
+		(at 134.62 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eabb28be-552e-4170-9aaf-1f9517e18e4e")
 	)
 	(junction
-		(at 91.44 92.71)
+		(at 118.11 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb6a7253-33bd-45ce-bf08-1138b525f601")
 	)
 	(no_connect
-		(at 114.3 100.33)
-		(uuid "038e8a0a-7dcd-47f3-ad97-b1145653e670")
-	)
-	(no_connect
-		(at 114.3 95.25)
+		(at 140.97 110.49)
 		(uuid "d27f5a0c-3cdd-4797-bdb7-21d4d865dc30")
 	)
 	(no_connect
-		(at 114.3 77.47)
+		(at 140.97 92.71)
 		(uuid "d43985d7-de6a-44fb-b3b0-6eb1793a4021")
 	)
 	(wire
 		(pts
-			(xy 96.52 69.85) (xy 96.52 63.5)
+			(xy 123.19 85.09) (xy 123.19 78.74)
 		)
 		(stroke
 			(width 0)
@@ -856,7 +850,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 114.3 82.55)
+			(xy 135.89 105.41) (xy 140.97 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10fa6c39-82eb-4fb6-b4ff-821f7020dd1f")
+	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 140.97 97.79)
 		)
 		(stroke
 			(width 0)
@@ -866,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 69.85) (xy 101.6 63.5)
+			(xy 128.27 85.09) (xy 128.27 78.74)
 		)
 		(stroke
 			(width 0)
@@ -876,7 +880,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 113.03 63.5)
+			(xy 139.7 100.33) (xy 139.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -886,7 +890,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 74.93) (xy 107.95 80.01)
+			(xy 134.62 90.17) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -896,7 +900,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 87.63) (xy 96.52 87.63)
+			(xy 135.89 105.41) (xy 135.89 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35b08670-ba47-420f-a318-b5e8ce80a26a")
+	)
+	(wire
+		(pts
+			(xy 109.22 102.87) (xy 123.19 102.87)
 		)
 		(stroke
 			(width 0)
@@ -906,17 +920,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 90.17) (xy 114.3 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52eabab4-2b52-41d6-94ae-d9f0de5873ad")
-	)
-	(wire
-		(pts
-			(xy 96.52 74.93) (xy 96.52 87.63)
+			(xy 123.19 90.17) (xy 123.19 102.87)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +930,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 63.5) (xy 101.6 63.5)
+			(xy 123.19 78.74) (xy 128.27 78.74)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +940,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 92.71) (xy 114.3 92.71)
+			(xy 118.11 107.95) (xy 140.97 107.95)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +950,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 107.95 63.5)
+			(xy 128.27 78.74) (xy 134.62 78.74)
 		)
 		(stroke
 			(width 0)
@@ -956,7 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 74.93) (xy 91.44 92.71)
+			(xy 118.11 90.17) (xy 118.11 107.95)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +970,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 100.33) (xy 157.48 104.14)
+			(xy 184.15 115.57) (xy 184.15 119.38)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +980,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 80.01) (xy 107.95 80.01)
+			(xy 109.22 95.25) (xy 134.62 95.25)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +990,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 87.63) (xy 114.3 87.63)
+			(xy 123.19 102.87) (xy 140.97 102.87)
 		)
 		(stroke
 			(width 0)
@@ -996,7 +1000,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 69.85) (xy 91.44 63.5)
+			(xy 118.11 85.09) (xy 118.11 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1010,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 96.52 63.5)
+			(xy 118.11 78.74) (xy 123.19 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1016,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 82.55) (xy 101.6 82.55)
+			(xy 109.22 97.79) (xy 128.27 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1026,7 +1030,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 107.95 63.5)
+			(xy 134.62 85.09) (xy 134.62 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1036,7 +1040,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 80.01) (xy 114.3 80.01)
+			(xy 134.62 95.25) (xy 140.97 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1046,7 +1050,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 63.5) (xy 113.03 62.23)
+			(xy 139.7 73.66) (xy 139.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1060,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 85.09) (xy 114.3 85.09)
+			(xy 139.7 100.33) (xy 140.97 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1066,7 +1070,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 63.5) (xy 113.03 63.5)
+			(xy 134.62 78.74) (xy 139.7 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1076,7 +1080,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 74.93) (xy 101.6 82.55)
+			(xy 109.22 115.57) (xy 140.97 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da5b8aa4-1701-4a76-b585-6c034741b920")
+	)
+	(wire
+		(pts
+			(xy 128.27 90.17) (xy 128.27 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1086,7 +1100,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 92.71) (xy 91.44 92.71)
+			(xy 109.22 107.95) (xy 118.11 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1094,19 +1108,9 @@
 		)
 		(uuid "e856ba64-463f-4a9d-91ae-82628c45b7d4")
 	)
-	(wire
-		(pts
-			(xy 109.22 90.17) (xy 109.22 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea8072b6-62a9-45a0-93f7-c1192db131d6")
-	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 82.55 82.55 180)
+		(at 109.22 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1117,7 +1121,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 82.55 87.63 180)
+		(at 109.22 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1126,9 +1130,20 @@
 		)
 		(uuid "654258b3-95c7-4e4d-a3d9-e9282b44b4e4")
 	)
+	(hierarchical_label "DET"
+		(shape input)
+		(at 109.22 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d54f6076-50fb-4f08-abb3-960d37f527bf")
+	)
 	(hierarchical_label "CS"
 		(shape input)
-		(at 82.55 80.01 180)
+		(at 109.22 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1139,7 +1154,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 82.55 92.71 180)
+		(at 109.22 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1149,8 +1164,8 @@
 		(uuid "f955ed71-ec85-4180-b7d6-f410be5b0e5e")
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 107.95 72.39 0)
+		(lib_id "power:GND")
+		(at 135.89 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1158,9 +1173,11 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "091a81a4-b4c7-4660-b516-863eeebda162")
-		(property "Reference" "R19"
-			(at 110.49 69.85 90)
+		(fields_autoplaced yes)
+		(uuid "07313966-a0e6-4833-8244-252ea4714711")
+		(property "Reference" "#PWR06"
+			(at 135.89 128.27 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1169,8 +1186,8 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
-			(at 110.49 74.93 90)
+		(property "Value" "GND"
+			(at 135.89 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1179,8 +1196,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 107.95 72.39 0)
+		(property "Footprint" ""
+			(at 135.89 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1191,7 +1208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 72.39 0)
+			(at 135.89 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1201,19 +1218,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 107.95 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part Number" "."
-			(at 107.95 64.77 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1224,14 +1230,101 @@
 			)
 		)
 		(pin "1"
-			(uuid "1853a5da-2a8f-4ed7-8475-3e8cc5a0ae40")
-		)
-		(pin "2"
-			(uuid "c59011fb-192a-4671-94b9-76ee74535b5c")
+			(uuid "7b64654a-0ffe-4cae-b496-ca9978e71169")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/d6aba73a-093f-4cda-a9b2-3dd6eb0e03eb"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e2895daf-941f-4d83-920e-4f4cd86d53ec"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 134.62 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "091a81a4-b4c7-4660-b516-863eeebda162")
+		(property "Reference" "R19"
+			(at 137.16 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 137.16 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 134.62 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 134.62 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "."
+			(at 134.62 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9a56014-3a17-4c97-be5c-c481dc6b5c72")
+		)
+		(pin "2"
+			(uuid "edba748f-6dbb-4f7b-a8b5-12c9f293f25b")
+		)
+		(instances
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e2895daf-941f-4d83-920e-4f4cd86d53ec"
 					(reference "R19")
 					(unit 1)
 				)
@@ -1240,7 +1333,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card_Det1")
-		(at 137.16 87.63 0)
+		(at 163.83 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1251,7 +1344,7 @@
 		(fields_autoplaced yes)
 		(uuid "29610dbf-e0e1-422d-8bee-e6c54a87a019")
 		(property "Reference" "J5"
-			(at 137.795 66.04 0)
+			(at 164.465 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1261,7 +1354,7 @@
 			)
 		)
 		(property "Value" "Micro_SD_Card_Det1"
-			(at 137.795 68.58 0)
+			(at 164.465 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1271,7 +1364,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
-			(at 189.23 69.85 0)
+			(at 215.9 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1282,7 +1375,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
-			(at 137.16 85.09 0)
+			(at 163.83 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1293,7 +1386,7 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket with one card detection pin"
-			(at 137.16 87.63 0)
+			(at 163.83 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1304,38 +1397,38 @@
 			)
 		)
 		(pin "2"
-			(uuid "1249f34f-8a03-4696-a0e4-626500d0d7ca")
+			(uuid "8feaa71a-ecc8-45c7-8d7f-8f48142aa07c")
 		)
 		(pin "6"
-			(uuid "426ed492-4cdd-4bb3-a754-d871f32b0f83")
+			(uuid "16367716-030c-45f1-bc48-286fac2c3985")
 		)
 		(pin "SH"
-			(uuid "fa096a14-24fe-42d8-9cdb-1c5ef3e97f81")
+			(uuid "8932a343-c209-4d9a-9863-3527beaf76c6")
 		)
 		(pin "3"
-			(uuid "1ce986c3-946d-4ad0-8adf-f256ae60b55e")
+			(uuid "d01263f6-4b6c-4d34-b002-a3d813bb55ee")
 		)
 		(pin "8"
-			(uuid "50c8f239-2083-488c-a349-822c6313222b")
+			(uuid "41d08f12-1a2b-4d2a-acb9-a22b7399ec16")
 		)
 		(pin "9"
-			(uuid "ef9b43a1-ccc1-416a-88af-e8b2d41be33d")
+			(uuid "03db1365-2b76-4dd9-b3c7-90c471a59f6c")
 		)
 		(pin "1"
-			(uuid "1c5d574b-0265-4ea2-844d-6f798e31383d")
+			(uuid "7ae2f4ba-fd6f-4d9d-86f0-e800ebc72c4a")
 		)
 		(pin "4"
-			(uuid "60a18cd7-78d6-4b68-8039-c899d9d65376")
+			(uuid "0bdebd88-1004-4fd0-8828-1a04c656b5f0")
 		)
 		(pin "5"
-			(uuid "21b2f5b6-3ef3-4c1b-bca5-817cd7632261")
+			(uuid "4197e886-cee8-4972-af9e-34ef3b7af7cb")
 		)
 		(pin "7"
-			(uuid "cd410173-4b33-49d8-8e8e-5ab36e8e6113")
+			(uuid "29a3732a-839f-46ee-bdf7-e7cc7434558f")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/d6aba73a-093f-4cda-a9b2-3dd6eb0e03eb"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e2895daf-941f-4d83-920e-4f4cd86d53ec"
 					(reference "J5")
 					(unit 1)
 				)
@@ -1344,7 +1437,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 91.44 72.39 0)
+		(at 118.11 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1354,7 +1447,7 @@
 		(dnp no)
 		(uuid "2ac3dc2b-1dba-4e73-b268-9c380b009c78")
 		(property "Reference" "R16"
-			(at 93.98 69.85 90)
+			(at 120.65 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1364,7 +1457,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 93.98 74.93 90)
+			(at 120.65 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1374,7 +1467,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 91.44 72.39 0)
+			(at 118.11 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1385,7 +1478,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 72.39 0)
+			(at 118.11 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1396,7 +1489,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 91.44 72.39 0)
+			(at 118.11 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1407,7 +1500,7 @@
 			)
 		)
 		(property "Mouser Part Number" "."
-			(at 91.44 64.77 0)
+			(at 118.11 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1418,14 +1511,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a44fdfac-25b2-4426-9caf-60c1c028c1e7")
+			(uuid "ed2fc86c-2b04-4b66-99ea-6033bfa74bd1")
 		)
 		(pin "2"
-			(uuid "4a8c240c-4b05-424b-8a94-454c21e32f5f")
+			(uuid "c1e880b5-836d-46d4-95a2-ffcbde6ba675")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/d6aba73a-093f-4cda-a9b2-3dd6eb0e03eb"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e2895daf-941f-4d83-920e-4f4cd86d53ec"
 					(reference "R16")
 					(unit 1)
 				)
@@ -1434,7 +1527,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 96.52 72.39 0)
+		(at 123.19 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1444,7 +1537,7 @@
 		(dnp no)
 		(uuid "3e583c8e-bf49-4038-a2e7-9f5c88790ac9")
 		(property "Reference" "R17"
-			(at 99.06 69.85 90)
+			(at 125.73 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1454,7 +1547,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 99.06 74.93 90)
+			(at 125.73 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1464,7 +1557,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 96.52 72.39 0)
+			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1475,7 +1568,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 72.39 0)
+			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1486,7 +1579,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 96.52 72.39 0)
+			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1497,7 +1590,7 @@
 			)
 		)
 		(property "Mouser Part Number" "."
-			(at 96.52 64.77 0)
+			(at 123.19 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1508,14 +1601,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e04519e8-2b3d-4dd3-a91e-3f7845ce98ed")
+			(uuid "01b966a4-a4cb-4749-b695-ec4bd137ebfd")
 		)
 		(pin "2"
-			(uuid "70b260cc-1fbd-4d8b-932d-55f76c93951e")
+			(uuid "8f981c46-44aa-46b0-bc93-869931aca4bf")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/d6aba73a-093f-4cda-a9b2-3dd6eb0e03eb"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e2895daf-941f-4d83-920e-4f4cd86d53ec"
 					(reference "R17")
 					(unit 1)
 				)
@@ -1523,86 +1616,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 113.03 62.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46e455e7-98b6-4f73-beb4-133ff0d16ec9")
-		(property "Reference" "#PWR011"
-			(at 113.03 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 113.03 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 113.03 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4e9e48a-e17b-4268-869c-d2972a9f2ba6")
-		)
-		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/d6aba73a-093f-4cda-a9b2-3dd6eb0e03eb"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 157.48 104.14 0)
+		(at 184.15 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1613,7 +1628,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ce3c628-170f-414e-9128-3fdd957bcdc2")
 		(property "Reference" "#PWR020"
-			(at 157.48 110.49 0)
+			(at 184.15 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1624,7 +1639,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 109.22 0)
+			(at 184.15 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1634,7 +1649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 104.14 0)
+			(at 184.15 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1645,7 +1660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 104.14 0)
+			(at 184.15 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1656,7 +1671,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 104.14 0)
+			(at 184.15 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1667,11 +1682,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f5aa4bba-97ef-4732-9499-f1ceae318e10")
+			(uuid "bbc795fe-87ac-4219-938e-2a4c86562e64")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/d6aba73a-093f-4cda-a9b2-3dd6eb0e03eb"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e2895daf-941f-4d83-920e-4f4cd86d53ec"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -1680,7 +1695,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 101.6 72.39 0)
+		(at 128.27 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1690,7 +1705,7 @@
 		(dnp no)
 		(uuid "8952c325-2bbb-41fc-b0dc-5c14a2e06836")
 		(property "Reference" "R18"
-			(at 104.14 69.85 90)
+			(at 130.81 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1700,7 +1715,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 104.14 74.93 90)
+			(at 130.81 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1710,7 +1725,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 101.6 72.39 0)
+			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1721,7 +1736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 72.39 0)
+			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1732,7 +1747,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 101.6 72.39 0)
+			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1743,7 +1758,7 @@
 			)
 		)
 		(property "Mouser Part Number" "."
-			(at 101.6 64.77 0)
+			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1754,14 +1769,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2438a55c-e56f-42d8-baca-e1028bd8355b")
+			(uuid "e6192551-26e4-414e-b45e-7169d5a98c14")
 		)
 		(pin "2"
-			(uuid "59ddc69b-3b5c-430f-9987-fd7ae2d8b219")
+			(uuid "0e0bd4b5-771b-4fba-8e07-02575a2e075d")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/d6aba73a-093f-4cda-a9b2-3dd6eb0e03eb"
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e2895daf-941f-4d83-920e-4f4cd86d53ec"
 					(reference "R18")
 					(unit 1)
 				)
@@ -1769,8 +1784,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 106.68 0)
+		(lib_id "power:+3V3")
+		(at 139.7 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1779,9 +1794,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b4a16409-3d4d-4db2-910f-4119e3f33998")
-		(property "Reference" "#PWR012"
-			(at 109.22 113.03 0)
+		(uuid "9f93a828-9721-4142-8bad-aab39b0927da")
+		(property "Reference" "#PWR023"
+			(at 139.7 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1791,8 +1806,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 109.22 111.76 0)
+		(property "Value" "+3V3"
+			(at 139.7 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1802,7 +1817,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 106.68 0)
+			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1813,7 +1828,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 106.68 0)
+			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,8 +1838,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 106.68 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 139.7 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1835,12 +1850,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd9b2284-0984-46b5-9832-386c72dd0a3a")
+			(uuid "fd243df6-0df1-4d40-9a5a-eef066d7d2ac")
 		)
 		(instances
-			(project "czujnik_temperatury_cisnienia"
-				(path "/ebf4accf-ba79-40e2-9928-7d00d62f5800/d6aba73a-093f-4cda-a9b2-3dd6eb0e03eb"
-					(reference "#PWR012")
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/e2895daf-941f-4d83-920e-4f4cd86d53ec"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

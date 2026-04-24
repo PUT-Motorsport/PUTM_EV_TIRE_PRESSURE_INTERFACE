@@ -63,7 +63,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "czujnik_temperatury_cisnienia.kicad_prl",
+    "filename": "tire_pressure_interface.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -94,12 +94,12 @@
     "col_widths": [
       162,
       147,
-      125,
-      123,
-      131,
-      116,
-      122,
-      104,
+      102,
+      99,
+      106,
+      95,
+      99,
+      85,
       91,
       91
     ],
