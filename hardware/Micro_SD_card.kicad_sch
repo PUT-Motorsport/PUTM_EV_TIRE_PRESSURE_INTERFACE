@@ -1283,7 +1283,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 134.62 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1294,7 +1294,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Thick Film Resistors - SMD 1/8 Watt 4.7Kohms 1%"
 			(at 134.62 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1305,7 +1305,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
+		(property "Mouser Part Number" "71-CRCW0603-4.7K-E3"
 			(at 134.62 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1477,7 +1477,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 118.11 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1488,7 +1488,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Thick Film Resistors - SMD 1/8 Watt 4.7Kohms 1%"
 			(at 118.11 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1499,7 +1499,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
+		(property "Mouser Part Number" "71-CRCW0603-4.7K-E3"
 			(at 118.11 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1567,7 +1567,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1578,7 +1578,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Thick Film Resistors - SMD 1/8 Watt 4.7Kohms 1%"
 			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1589,7 +1589,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
+		(property "Mouser Part Number" "71-CRCW0603-4.7K-E3"
 			(at 123.19 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1735,7 +1735,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/20035/dcrcwe3.pdf"
 			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1746,7 +1746,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Thick Film Resistors - SMD 1/8 Watt 4.7Kohms 1%"
 			(at 128.27 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1757,7 +1757,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
+		(property "Mouser Part Number" "71-CRCW0603-4.7K-E3"
 			(at 128.27 80.01 0)
 			(hide yes)
 			(show_name no)

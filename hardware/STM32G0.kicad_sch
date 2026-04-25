@@ -3242,7 +3242,7 @@
 		)
 		(uuid "be007a24-cd1b-4c1f-9db0-6b0b8b04cb3f")
 	)
-	(label "NRST"
+	(label "RST"
 		(at 128.27 78.74 180)
 		(effects
 			(font
