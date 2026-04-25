@@ -3381,7 +3381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:FTSH-107-XX-YYY-D-K"
+		(property "Footprint" "XiaoS3:SAMTEC_FTSH-107-01-L-D-K"
 			(at 179.07 196.52 0)
 			(hide yes)
 			(show_name no)

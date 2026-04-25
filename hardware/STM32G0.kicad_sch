@@ -2375,6 +2375,15 @@
 		(uuid "e65e4761-d726-4ddc-8a8a-23498d020358")
 	)
 	(bus_entry
+		(at 200.66 91.44)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e63a43c-e39c-4275-9be8-913054e11059")
+	)
+	(bus_entry
 		(at 199.39 111.76)
 		(size 2.54 2.54)
 		(stroke
@@ -2391,6 +2400,33 @@
 			(type default)
 		)
 		(uuid "4407e83c-dc8b-4609-b928-5b7c2a0b9dde")
+	)
+	(bus_entry
+		(at 200.66 93.98)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6df21eb3-22bb-4b7c-89eb-c9b73755ab81")
+	)
+	(bus_entry
+		(at 200.66 86.36)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db710be3-27d7-41d3-b65c-35b719c8fb46")
+	)
+	(bus_entry
+		(at 200.66 88.9)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda3ddcc-c776-4d2e-ae32-57a287d765c3")
 	)
 	(wire
 		(pts
@@ -2491,6 +2527,16 @@
 			(type default)
 		)
 		(uuid "2335bb25-abc1-4ad6-bf62-4280da320593")
+	)
+	(bus
+		(pts
+			(xy 200.66 83.82) (xy 203.2 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "273e9fde-6b64-45ce-9ad2-8192f37edd94")
 	)
 	(wire
 		(pts
@@ -2992,6 +3038,16 @@
 		)
 		(uuid "c0f2560f-0866-4a7d-bb6e-6c4afb631509")
 	)
+	(bus
+		(pts
+			(xy 200.66 83.82) (xy 200.66 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5315ba4-6903-480b-af06-8a1cc8a69faf")
+	)
 	(wire
 		(pts
 			(xy 95.25 50.8) (xy 100.33 50.8)
@@ -3001,6 +3057,16 @@
 			(type default)
 		)
 		(uuid "ccfdf3b1-ae39-4ba3-8bb3-d1d046656daa")
+	)
+	(bus
+		(pts
+			(xy 200.66 88.9) (xy 200.66 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce32614d-bde6-4bc4-b532-8df4b48e9389")
 	)
 	(wire
 		(pts
@@ -3172,6 +3238,26 @@
 		)
 		(uuid "28e1e382-f99e-4116-be16-0124d95ee418")
 	)
+	(label "SCK"
+		(at 191.77 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a360c18-d39d-4712-8fb7-646b655d5c96")
+	)
+	(label "MOSI"
+		(at 191.77 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3ea2d0d0-aabe-4e9c-b4f4-835be4423c5e")
+	)
 	(label "STM_VCC"
 		(at 163.83 50.8 180)
 		(effects
@@ -3202,6 +3288,16 @@
 		)
 		(uuid "6b05f2f9-af52-42b9-9f75-00c40f03e75b")
 	)
+	(label "MISO"
+		(at 191.77 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8247e401-87d2-4135-81d0-7cf2f65b2bdb")
+	)
 	(label "LED.OK"
 		(at 119.38 116.84 0)
 		(effects
@@ -3211,6 +3307,16 @@
 			(justify left bottom)
 		)
 		(uuid "8bd91999-d4bc-495f-ad28-7e5f091c410f")
+	)
+	(label "NSS"
+		(at 191.77 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9b0bb915-3251-42fc-b5b3-eb684f545a85")
 	)
 	(label "LED.WRN"
 		(at 119.38 96.52 0)
@@ -3272,28 +3378,6 @@
 		)
 		(uuid "f362dcd8-c811-4497-ac25-20ed729bc3e7")
 	)
-	(hierarchical_label "SPI1_MOSI"
-		(shape input)
-		(at 198.12 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0bc0a582-d27d-412b-8cd0-10720f8d646b")
-	)
-	(hierarchical_label "SPI1_SCK"
-		(shape input)
-		(at 198.12 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "383b6887-0b06-4fa0-815b-711014e9e722")
-	)
 	(hierarchical_label "USART.TX"
 		(shape input)
 		(at 128.27 109.22 180)
@@ -3304,17 +3388,6 @@
 			(justify right)
 		)
 		(uuid "4a103430-0125-42d8-b59a-76af22c10fa0")
-	)
-	(hierarchical_label "SPI1_NSS"
-		(shape input)
-		(at 198.12 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4e90ff79-693f-4d12-8001-cbe2f20506ad")
 	)
 	(hierarchical_label "STBY_CAN"
 		(shape output)
@@ -3371,17 +3444,6 @@
 		)
 		(uuid "9a9c5eac-095e-4d3b-81b1-5b520d4755b2")
 	)
-	(hierarchical_label "SPI1_MISO"
-		(shape input)
-		(at 198.12 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9e844817-c25d-414e-b64d-de9634896cf8")
-	)
 	(hierarchical_label "USART.RX"
 		(shape input)
 		(at 128.27 111.76 180)
@@ -3392,6 +3454,17 @@
 			(justify right)
 		)
 		(uuid "adf80a99-626a-4539-b070-a5325a0ae921")
+	)
+	(hierarchical_label "{MISO SCK MOSI NSS}"
+		(shape bidirectional)
+		(at 203.2 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "be9a491f-f739-487d-90ec-bd79084a05af")
 	)
 	(hierarchical_label "CAN.RX"
 		(shape input)
