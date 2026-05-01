@@ -1063,17 +1063,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FTSH-107-01-L-D-K"
+			(property "Reference" "J3"
 				(at 0 11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1083,7 +1073,17 @@
 					)
 				)
 			)
-			(property "Footprint" "Samacsys:FTSH-107-XX-YYY-D-K"
+			(property "Value" "FTSH-107-01-L-D-K"
+				(at 0 13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "XiaoS3:SAMTEC_FTSH-107-01-L-D-K"
 				(at 19.05 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1176,6 +1176,56 @@
 						(size 1.27 1.27)
 					)
 					(justify left top)
+				)
+			)
+			(property "Author" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "License" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "FTSH-107-01-L-D-K_1_1"
@@ -1354,7 +1404,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "01"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1372,7 +1422,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "02"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1390,7 +1440,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "03"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1408,7 +1458,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "04"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1426,7 +1476,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "05"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1444,7 +1494,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "06"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1462,7 +1512,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "07"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1480,7 +1530,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "08"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1498,7 +1548,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "09"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2762,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_S4B-EH_1x04_P2.50mm_Horizontal"
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3526,22 +3576,22 @@
 				)
 			)
 		)
-		(pin "2"
+		(pin "08"
 			(uuid "2dd49a13-319f-4f80-981e-344ee98941bd")
 		)
-		(pin "5"
+		(pin "07"
 			(uuid "1621f421-0ea8-4d5d-82fa-1c47105dae8c")
 		)
-		(pin "8"
+		(pin "05"
 			(uuid "c9d6e58a-4bfe-4b00-a7d7-27099e00aefc")
 		)
 		(pin "11"
 			(uuid "a504a2af-ff75-4166-ad75-d797d74879c6")
 		)
-		(pin "4"
+		(pin "06"
 			(uuid "c6f748ac-db0d-4761-b30c-32030ce2cbea")
 		)
-		(pin "7"
+		(pin "09"
 			(uuid "5843b711-c798-4109-af81-2b04df3e94ca")
 		)
 		(pin "10"
@@ -3550,22 +3600,22 @@
 		(pin "12"
 			(uuid "c8b0161f-f0ff-4b49-830f-b6a3b51070e3")
 		)
-		(pin "6"
+		(pin "03"
 			(uuid "ed0ccaf3-44f8-464e-a868-fe6262c82436")
 		)
 		(pin "13"
 			(uuid "a5703ec3-d797-4ce4-bec1-ac53263c0e73")
 		)
-		(pin "3"
+		(pin "02"
 			(uuid "0ecbf467-f2a6-4b24-a614-048820d4b855")
 		)
 		(pin "14"
 			(uuid "0b6faa3e-4348-4f06-8802-0460b1815612")
 		)
-		(pin "9"
+		(pin "04"
 			(uuid "cc684e41-0b64-4af9-8e97-631d51a08587")
 		)
-		(pin "1"
+		(pin "01"
 			(uuid "3ded9ba0-8a02-4009-b36f-89734c5ea143")
 		)
 		(instances

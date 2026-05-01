@@ -4543,7 +4543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Samacsys:CAPC5728X280N"
+		(property "Footprint" "XiaoS3:CAPC5727X254N"
 			(at 186.36 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4555,7 +4555,7 @@
 				(justify left top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.vishay.com/docs/45228/hvseries.pdf"
 			(at 286.36 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4590,7 +4590,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "791-S252B222K502CT"
+		(property "Mouser Part Number" "77-HV2225Y472KXVATHV"
 			(at 586.36 120.65 0)
 			(hide yes)
 			(show_name no)
