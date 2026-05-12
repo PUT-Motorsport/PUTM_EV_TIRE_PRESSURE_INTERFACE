@@ -595,6 +595,10 @@
       {
         "netclass": "Default",
         "pattern": "CAN.H"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VO_+3.3V"
       }
     ]
   },
