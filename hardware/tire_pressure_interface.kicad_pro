@@ -599,6 +599,14 @@
       {
         "netclass": "Power",
         "pattern": "VO_+3.3V"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VCC_IN"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/VCC_IN"
       }
     ]
   },
