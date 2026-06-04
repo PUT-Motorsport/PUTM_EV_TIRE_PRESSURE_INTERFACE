@@ -607,6 +607,14 @@
       {
         "netclass": "Power",
         "pattern": "/Power/VCC_IN"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "STM_VCC"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/STM32/STM_VCC"
       }
     ]
   },
