@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -594,7 +594,7 @@
       },
       {
         "netclass": "Default",
-        "pattern": "CAN.H"
+        "pattern": "CAN_*"
       },
       {
         "netclass": "Power",
@@ -615,6 +615,10 @@
       {
         "netclass": "Power",
         "pattern": "/STM32/STM_VCC"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "Net-(IC1-SW)"
       }
     ]
   },

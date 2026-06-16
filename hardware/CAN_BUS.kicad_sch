@@ -3104,7 +3104,7 @@
 		)
 		(uuid "26701f58-edcf-46db-b584-31ebd7a00086")
 	)
-	(hierarchical_label "CAN_H"
+	(hierarchical_label "CAN_P"
 		(shape input)
 		(at 113.03 88.9 180)
 		(effects
@@ -3126,7 +3126,7 @@
 		)
 		(uuid "82a35c98-1e7b-4c14-acd7-af05a88b47a0")
 	)
-	(hierarchical_label "CAN_L"
+	(hierarchical_label "CAN_N"
 		(shape input)
 		(at 113.03 91.44 180)
 		(effects

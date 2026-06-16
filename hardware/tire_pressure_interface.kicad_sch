@@ -1588,7 +1588,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN.H" input
+		(pin "CAN_N" input
 			(at 233.68 90.17 0)
 			(uuid "6a6544cf-8a1d-4679-b454-c117bdde48f3")
 			(effects
@@ -1598,7 +1598,7 @@
 				(justify right)
 			)
 		)
-		(pin "CAN.L" input
+		(pin "CAN_P" input
 			(at 233.68 85.09 0)
 			(uuid "0bbba51a-1635-4f8b-b759-e007468a7cb7")
 			(effects
@@ -1886,7 +1886,7 @@
 				(justify left top)
 			)
 		)
-		(pin "CAN_H" input
+		(pin "CAN_P" input
 			(at 233.68 53.34 0)
 			(uuid "46c63c73-b821-4505-871f-b4e8d54215af")
 			(effects
@@ -1896,7 +1896,7 @@
 				(justify right)
 			)
 		)
-		(pin "CAN_L" input
+		(pin "CAN_N" input
 			(at 233.68 58.42 0)
 			(uuid "e70403fc-270a-4adc-9b00-73849dc8238d")
 			(effects

@@ -2573,7 +2573,7 @@
 		)
 		(uuid "fafd79aa-248e-46fe-a387-690e00c6ca10")
 	)
-	(label "CAN.H"
+	(label "CAN_P"
 		(at 160.02 50.8 0)
 		(effects
 			(font
@@ -2603,7 +2603,7 @@
 		)
 		(uuid "1e08e230-2ca6-4f64-95bd-f04ea5f7debd")
 	)
-	(label "CAN.L"
+	(label "CAN_N"
 		(at 99.06 50.8 0)
 		(effects
 			(font
@@ -2663,7 +2663,7 @@
 		)
 		(uuid "70139ea2-9b7d-4002-b1c8-09e95577ce47")
 	)
-	(label "CAN.L"
+	(label "CAN_N"
 		(at 160.02 53.34 0)
 		(effects
 			(font
@@ -2673,7 +2673,7 @@
 		)
 		(uuid "a89ed96d-cdfb-45eb-aa6b-103cf0a1c31c")
 	)
-	(label "CAN.H"
+	(label "CAN_P"
 		(at 129.54 50.8 180)
 		(effects
 			(font
@@ -2758,7 +2758,7 @@
 		)
 		(uuid "b3868560-7f3f-41f2-a09b-ce898970690c")
 	)
-	(hierarchical_label "CAN.H"
+	(hierarchical_label "CAN_P"
 		(shape input)
 		(at 170.18 50.8 0)
 		(effects
@@ -2769,7 +2769,7 @@
 		)
 		(uuid "e235a808-5469-43f6-9280-c6f6535609c5")
 	)
-	(hierarchical_label "CAN.L"
+	(hierarchical_label "CAN_N"
 		(shape input)
 		(at 170.18 53.34 0)
 		(effects
