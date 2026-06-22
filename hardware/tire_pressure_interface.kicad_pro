@@ -619,6 +619,26 @@
       {
         "netclass": "Power",
         "pattern": "Net-(IC1-SW)"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/EN"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/+5V_OUT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/RPP_D"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/RPP_G"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/CAN_BUS/GND_CAN_ISO1"
       }
     ]
   },
@@ -766,7 +786,7 @@
         "uuid": "b652b05a-4e3d-4ad1-b032-18886abe7d45"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R8",
     "variants": []
   },
   "sheets": [
