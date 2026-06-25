@@ -7532,8 +7532,8 @@
 		(at 122.87 116.995 -90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
-		(property "Reference" "D2"
-			(at -4.105 -0.15 90)
+		(property "Reference" "WRN"
+			(at -4.245 -0.04 90)
 			(layer "F.SilkS")
 			(uuid "fd7e051d-a675-4a2d-b561-6126f7729525")
 			(effects
@@ -10883,7 +10883,7 @@
 				)
 			)
 		)
-		(property "Value" "PTVS5V0Z1USK"
+		(property "Value" "UCLAMP3301D.TCT"
 			(at 0.1 1.9 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13271,8 +13271,8 @@
 		(at 120.78 117.0225 -90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
-		(property "Reference" "D3"
-			(at -3.9925 -0.09 90)
+		(property "Reference" "ERR"
+			(at -4.2725 -0.03 90)
 			(layer "F.SilkS")
 			(uuid "3f349032-3368-4eca-899a-12bf478496ca")
 			(effects
@@ -21551,8 +21551,8 @@
 		(at 124.97 116.9975 -90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
-		(property "Reference" "D1"
-			(at -3.6975 0.02 90)
+		(property "Reference" "OK"
+			(at -3.6775 -0.02 90)
 			(layer "F.SilkS")
 			(uuid "44d51720-86d4-47e4-bea2-41e467f7e396")
 			(effects
@@ -23525,7 +23525,7 @@
 		(uuid "38ee11d8-748c-48a2-bfe1-52a1b03bd0ad")
 	)
 	(gr_text "ACT"
-		(at 127.22 113.25 90)
+		(at 127.19 112.87 90)
 		(layer "F.SilkS")
 		(uuid "d999ccc0-9399-482a-ac3a-a7c76e5097ad")
 		(effects
