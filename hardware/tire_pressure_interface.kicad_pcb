@@ -6747,7 +6747,7 @@
 		(uuid "35eae73c-9e90-40e7-a223-601caf7f0e5c")
 		(at 120.98 95.77 180)
 		(property "Reference" "J3"
-			(at -5.67 -0.69 0)
+			(at -3.52 -2.86 0)
 			(layer "F.SilkS")
 			(uuid "b082253f-1a0d-476e-b0e8-eeb7177bea13")
 			(effects
@@ -7532,7 +7532,7 @@
 		(at 122.87 116.995 -90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
-		(property "Reference" "WRN"
+		(property "Reference" "D2"
 			(at -4.105 -0.15 90)
 			(layer "F.SilkS")
 			(uuid "fd7e051d-a675-4a2d-b561-6126f7729525")
@@ -7555,7 +7555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/LTST-C190KAKT.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7566,7 +7566,7 @@
 				)
 			)
 		)
-		(property "Description" "Orange light emitting diode, small symbol"
+		(property "Description" "Light emitting diode, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10866,6 +10866,313 @@
 			)
 		)
 	)
+	(footprint "Diode_SMD:D_SOD-323_HandSoldering"
+		(layer "F.Cu")
+		(uuid "5cf2b9d0-8228-4067-9bfe-c8a690c4e24d")
+		(at 128.03 97.4925 -90)
+		(descr "SOD-323")
+		(tags "SOD-323")
+		(property "Reference" "D6"
+			(at 3.3675 0.14 90)
+			(layer "F.SilkS")
+			(uuid "699368d0-941d-4480-8029-ef83f32d3980")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PTVS5V0Z1USK"
+			(at 0.1 1.9 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "531f39c2-9fd4-4106-b358-e794862b0793")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/44000000MCod/Fs.eSBQs1U.304Nkc5rxRZ3Lk6_1A4.ZX_npjU1R.C8"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66cacdff-e8f0-4025-9d0d-ea64da48f67f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes TVS 1-LINE UNI,10A(8/20)5.3V"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bd67110-e077-4bf4-b0dc-0aa03f805dfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser number" "947-UCLAMP3301D.TCT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c7224f6-e492-4308-9748-f18478d7d298")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/ProductDetail/Semtech/UCLAMP3301D.TCT?qs=rBWM4%252BvDhIcs1MIPFV0RMQ%3D%3D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2497910e-cd81-453c-b63b-51b43a836df0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*DSN1608?2*")
+		(path "/24d2ddf3-2016-4f01-82b4-08db856ba16e/d1e6f3f1-2695-430c-b895-633413631675")
+		(sheetname "/Connectors/")
+		(sheetfile "Connectors.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.01 0.85)
+			(end 1.25 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "216b725b-205e-4cd2-a8af-7dab395d9da4")
+		)
+		(fp_line
+			(start -2.01 -0.85)
+			(end -2.01 0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b9c52251-8457-4503-8852-82eaf0a0d0c4")
+		)
+		(fp_line
+			(start -2.01 -0.85)
+			(end 1.25 -0.85)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f380854f-7ca3-4dd7-9eda-0bc2e33c66d0")
+		)
+		(fp_line
+			(start -2 0.95)
+			(end 2 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "43456fe8-9ff2-4492-8542-48bb520a3224")
+		)
+		(fp_line
+			(start -2 -0.95)
+			(end -2 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6f57e4f7-7c7d-4c7c-9d41-01e8c4bec834")
+		)
+		(fp_line
+			(start -2 -0.95)
+			(end 2 -0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e23e4384-7f79-4d26-9963-f21bdc52001c")
+		)
+		(fp_line
+			(start 2 -0.95)
+			(end 2 0.95)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d347d03b-23f2-405a-91c8-188cdd786f2f")
+		)
+		(fp_line
+			(start -0.9 0.7)
+			(end -0.9 -0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e2abd247-35af-4201-a156-8554c8b09b5b")
+		)
+		(fp_line
+			(start 0.9 0.7)
+			(end -0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cee57a27-5318-4a2e-b174-e315ce0dce9a")
+		)
+		(fp_line
+			(start 0.2 0.35)
+			(end -0.3 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7fe8c334-aad7-4909-a362-583f916846fd")
+		)
+		(fp_line
+			(start -0.3 0)
+			(end -0.5 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d3eee2be-b815-4470-97f0-06ef02d23450")
+		)
+		(fp_line
+			(start -0.3 0)
+			(end 0.2 -0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "50608154-72bd-4d83-88d6-833312998cac")
+		)
+		(fp_line
+			(start 0.2 0)
+			(end 0.45 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6b8bc544-d0be-4a82-9b69-d9e7099dd680")
+		)
+		(fp_line
+			(start -0.3 -0.35)
+			(end -0.3 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b2443eea-1b6e-4efd-a750-3dbdec9588eb")
+		)
+		(fp_line
+			(start 0.2 -0.35)
+			(end 0.2 0.35)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e24c3b48-2bd6-4c14-84a9-58eff7c89bde")
+		)
+		(fp_line
+			(start -0.9 -0.7)
+			(end 0.9 -0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "02c6cb37-cc34-4047-a437-3ff26b81b140")
+		)
+		(fp_line
+			(start 0.9 -0.7)
+			(end 0.9 0.7)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "3a444939-cdeb-4f8b-a170-7d01ecf57aac")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 3.3675 0.11 90)
+			(layer "F.Fab")
+			(uuid "58ca96f7-681e-41d5-9b1b-aeb5f8674ba6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.25 0 270)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+3V3")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "8f82a75b-5525-40c8-8e41-4fb780ad4c69")
+		)
+		(pad "2" smd roundrect
+			(at 1.25 0 270)
+			(size 1 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "5aa7609f-a268-43a6-a0f6-1e7c99d9529c")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SOD-323.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5e74f02b-7324-45f8-8e19-764d49e59788")
@@ -11643,7 +11950,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Connectors/RST")
-			(pinfunction "PF2_6")
+			(pinfunction "LPUART2_RTS_6")
 			(pintype "bidirectional")
 			(uuid "0062aefa-a0a8-44de-82d4-f867d2707a2a")
 		)
@@ -11693,7 +12000,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Micro_SD_Card/NSS")
-			(pinfunction "PA4_11")
+			(pinfunction "SPI1_NSS_11")
 			(pintype "bidirectional")
 			(uuid "efc89e56-91c4-4d22-b54e-fe47c8492d86")
 		)
@@ -11703,7 +12010,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Micro_SD_Card/SCK")
-			(pinfunction "PA5_12")
+			(pinfunction "SPI1_SCK_12")
 			(pintype "bidirectional")
 			(uuid "99b00a02-8468-4ab8-86af-242fb17ea316")
 		)
@@ -11713,7 +12020,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Micro_SD_Card/MISO")
-			(pinfunction "PA6_13")
+			(pinfunction "SPI1_MISO_13")
 			(pintype "bidirectional")
 			(uuid "d4048d6c-a208-4fa9-a61f-33d86c8275de")
 		)
@@ -11723,7 +12030,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Micro_SD_Card/MOSI")
-			(pinfunction "PA7_14")
+			(pinfunction "SPI1_MOSI_14")
 			(pintype "bidirectional")
 			(uuid "d61cfbe8-62f6-404a-9e10-e97d4e000d89")
 		)
@@ -11823,7 +12130,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Connectors/SWDIO")
-			(pinfunction "PA13_24")
+			(pinfunction "SYS_SWDIO_24")
 			(pintype "bidirectional")
 			(uuid "08f7fb98-e8dc-4bbf-9804-4cf33cdf6689")
 		)
@@ -11833,7 +12140,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/Connectors/SWCLK")
-			(pinfunction "PA14_25")
+			(pinfunction "SYS_SWCLK_25")
 			(pintype "bidirectional")
 			(uuid "756cc64d-5f72-4212-adab-dadcd0652750")
 		)
@@ -11843,7 +12150,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/CAN_BUS/CAN_RX")
-			(pinfunction "PD0_26")
+			(pinfunction "FDCAN1_RX_26")
 			(pintype "bidirectional")
 			(uuid "787b7fe6-0472-4f0d-bac1-95e6e9aaf167")
 		)
@@ -11853,7 +12160,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/CAN_BUS/CAN_TX")
-			(pinfunction "PD1_27")
+			(pinfunction "FDCAN1_TX_27")
 			(pintype "bidirectional")
 			(uuid "a98b8dad-398d-4b84-9734-41ff62bd0316")
 		)
@@ -11883,7 +12190,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/RX")
-			(pinfunction "PB6_30")
+			(pinfunction "USART1_TX_30")
 			(pintype "bidirectional")
 			(uuid "55dbd8a3-9331-4219-a369-a3ad366548fd")
 		)
@@ -11893,7 +12200,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "/TX")
-			(pinfunction "PB7_31")
+			(pinfunction "USART1_RX_31")
 			(pintype "bidirectional")
 			(uuid "7dbcf96a-69fc-49ab-bb32-2ccbd861424b")
 		)
@@ -12964,7 +13271,7 @@
 		(at 120.78 117.0225 -90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
-		(property "Reference" "ERR"
+		(property "Reference" "D3"
 			(at -3.9925 -0.09 90)
 			(layer "F.SilkS")
 			(uuid "3f349032-3368-4eca-899a-12bf478496ca")
@@ -12987,7 +13294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/281/1/LTST_C190KRKT.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12998,7 +13305,7 @@
 				)
 			)
 		)
-		(property "Description" "Red light emitting diode, small symbol"
+		(property "Description" "Light emitting diode, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20833,7 +21140,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/281/1/LTST_C191KSKT.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20844,7 +21151,7 @@
 				)
 			)
 		)
-		(property "Description" "Yellow light emitting diode, small symbol"
+		(property "Description" "Light emitting diode, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21244,7 +21551,7 @@
 		(at 124.97 116.9975 -90)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
 		(tags "LED handsolder")
-		(property "Reference" "OK"
+		(property "Reference" "D1"
 			(at -3.6975 0.02 90)
 			(layer "F.SilkS")
 			(uuid "44d51720-86d4-47e4-bea2-41e467f7e396")
@@ -21267,7 +21574,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/3/281/1/LTST_C191KGKT.pdf"
+		(property "Datasheet" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -21278,7 +21585,7 @@
 				)
 			)
 		)
-		(property "Description" "Green light emitting diode, small symbol"
+		(property "Description" "Light emitting diode, small symbol"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -23397,6 +23704,14 @@
 		(uuid "317ab10d-5aa0-4898-a179-f031ef629ac9")
 	)
 	(segment
+		(start 128.03 98.7425)
+		(end 128.03 100.33)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "330c69b9-8203-4bc4-826d-37a18dc200d1")
+	)
+	(segment
 		(start 85.9585 118.5485)
 		(end 85.97 118.56)
 		(width 0.5)
@@ -23925,6 +24240,14 @@
 		(uuid "c4bce328-0b2e-457f-ada1-85e95c769c98")
 	)
 	(segment
+		(start 128.03 100.33)
+		(end 128.04 100.34)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "c8a403aa-605c-4802-862a-75ae17f4a425")
+	)
+	(segment
 		(start 103.97 121.515)
 		(end 103.96 121.525)
 		(width 0.5)
@@ -24187,6 +24510,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "4c28f6ca-83dc-4a05-88d9-5a7a0b2c69ce")
+	)
+	(via
+		(at 128.04 100.34)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "50d18e77-51fc-463f-93d0-f62f2c565182")
 	)
 	(via
 		(at 120.17 91.005)
@@ -25821,6 +26152,14 @@
 		(uuid "2f22397f-66e1-4ae9-b6a4-d31a644ab24a")
 	)
 	(segment
+		(start 128.06 96.1925)
+		(end 128.01 96.2425)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "49da4cb4-e043-4623-8a39-6d0ec4ec24ec")
+	)
+	(segment
 		(start 122.89 123.55)
 		(end 122.87 123.53)
 		(width 0.5)
@@ -25883,6 +26222,14 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "8fe922f6-f549-4147-b541-f0e2f1939003")
+	)
+	(segment
+		(start 128.06 96.2125)
+		(end 128.03 96.2425)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "9bd9f08e-7ca5-44ee-a09c-0ed1fd06c060")
 	)
 	(segment
 		(start 110.275 115.755)
@@ -25955,6 +26302,14 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "ebaa0ae7-7db2-4231-887f-43538b255851")
+	)
+	(segment
+		(start 128.06 94.1)
+		(end 128.06 96.2125)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "f20a9661-9e18-47c9-9d45-9d183d57c805")
 	)
 	(via
 		(at 88.5 118.56)
@@ -26029,6 +26384,14 @@
 		(uuid "8b0e79c0-a25b-4c14-a562-3911ad54cc6a")
 	)
 	(via
+		(at 128.06 94.1)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(net "+3V3")
+		(uuid "a1cdaf2f-461d-47a6-893b-15218b577992")
+	)
+	(via
 		(at 120.78 123.6825)
 		(size 0.8)
 		(drill 0.4)
@@ -26083,6 +26446,38 @@
 		(layers "F.Cu" "B.Cu")
 		(net "+3V3")
 		(uuid "f95f4a85-a85d-485a-9616-4b9048c97acb")
+	)
+	(segment
+		(start 127.65 93.69)
+		(end 128.06 94.1)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "0350611c-acf5-46a0-8d01-9f19c7fe8fce")
+	)
+	(segment
+		(start 123.52 94.385467)
+		(end 124.215467 93.69)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "049bf059-81ea-4724-b2b6-fb39aa5cccf9")
+	)
+	(segment
+		(start 123.52 95.135)
+		(end 123.52 94.385467)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "b4cae6c6-ffb9-4b11-9b1f-12d0ac056e83")
+	)
+	(segment
+		(start 124.215467 93.69)
+		(end 127.65 93.69)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "+3V3")
+		(uuid "e2d75d1e-0281-421b-a10e-e2c7637be54e")
 	)
 	(segment
 		(start 88.35 87.42)

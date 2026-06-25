@@ -440,6 +440,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:PTVS5V0Z1USK"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTVS5V0Z1USK"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_DSN1608-2_1.6x0.8mm"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS5V0Z1USK.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5V, 1200W TVS unidirectional diode, DSN1608-2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TVS diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*DSN1608?2*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PTVS5V0Z1USK_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTVS5V0Z1USK_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "GND_2"
 			(power global)
 			(pin_numbers
@@ -2130,6 +2295,12 @@
 		(uuid "17d946f3-a00f-423a-84ac-9d5a90f6dbdd")
 	)
 	(junction
+		(at 134.62 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6128bbc7-fffe-4bc5-9662-b967c2262653")
+	)
+	(junction
 		(at 134.62 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2212,6 +2383,16 @@
 			(type default)
 		)
 		(uuid "1db30285-928a-498b-980f-e45fa7dce265")
+	)
+	(wire
+		(pts
+			(xy 119.38 96.52) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24fa7e14-3766-46ec-a6b4-95656f7c1738")
 	)
 	(wire
 		(pts
@@ -2302,6 +2483,16 @@
 			(type default)
 		)
 		(uuid "6806a246-a588-4c36-ad4b-d71a1b267109")
+	)
+	(wire
+		(pts
+			(xy 130.81 96.52) (xy 134.62 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c75ef8-9023-4494-9c55-8a5312eee985")
 	)
 	(bus
 		(pts
@@ -3168,6 +3359,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 119.38 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c859547-dce8-4a0b-8a84-ed06a717667d")
+		(property "Reference" "#PWR029"
+			(at 119.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0971ba8-ca2c-4dd5-861a-b4b5917c4feb")
+		)
+		(instances
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/24d2ddf3-2016-4f01-82b4-08db856ba16e"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 118.11 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -3395,6 +3664,108 @@
 			(project "tire_pressure_interface"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/24d2ddf3-2016-4f01-82b4-08db856ba16e"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PTVS5V0Z1USK")
+		(at 127 96.52 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1e6f3f1-2695-430c-b895-633413631675")
+		(property "Reference" "D6"
+			(at 127 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PTVS5V0Z1USK"
+			(at 127 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 127 92.075 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/E0000000JelG/a/44000000MCod/Fs.eSBQs1U.304Nkc5rxRZ3Lk6_1A4.ZX_npjU1R.C8"
+			(at 127 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes TVS 1-LINE UNI,10A(8/20)5.3V"
+			(at 127 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser number" "947-UCLAMP3301D.TCT"
+			(at 127 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/ProductDetail/Semtech/UCLAMP3301D.TCT?qs=rBWM4%252BvDhIcs1MIPFV0RMQ%3D%3D"
+			(at 127 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f16b0cad-35c3-485d-a3a9-99ebb31ec5cc")
+		)
+		(pin "1"
+			(uuid "7f1df77f-9916-42a1-b231-a5300c9de84a")
+		)
+		(instances
+			(project "tire_pressure_interface"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45/24d2ddf3-2016-4f01-82b4-08db856ba16e"
+					(reference "D6")
 					(unit 1)
 				)
 			)
