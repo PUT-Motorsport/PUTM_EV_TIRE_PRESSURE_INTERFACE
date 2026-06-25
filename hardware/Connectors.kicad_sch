@@ -3691,7 +3691,7 @@
 				)
 			)
 		)
-		(property "Value" "PTVS5V0Z1USK"
+		(property "Value" "UCLAMP3301D.TCT"
 			(at 127 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
