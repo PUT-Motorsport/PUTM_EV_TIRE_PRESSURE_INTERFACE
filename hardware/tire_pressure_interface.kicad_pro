@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.524,
-          "width": 2.432
+          "height": 1.5,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -639,6 +639,10 @@
       {
         "netclass": "Power",
         "pattern": "/CAN_BUS/GND_CAN_ISO1"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/Power/EN"
       }
     ]
   },

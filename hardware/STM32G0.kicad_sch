@@ -4813,15 +4813,18 @@
 		)
 		(pin "30"
 			(uuid "52be5dba-e9be-474b-9b75-b77463cdc713")
+			(alternate "USART1_TX")
 		)
 		(pin "31"
 			(uuid "4a29433f-480b-4687-8e5d-eca798a36963")
+			(alternate "USART1_RX")
 		)
 		(pin "8"
 			(uuid "ff98c334-9aca-44da-aa4c-24ed53275339")
 		)
 		(pin "14"
 			(uuid "a989bd92-c564-418a-abeb-b8eaac7a7d0a")
+			(alternate "SPI1_MOSI")
 		)
 		(pin "23"
 			(uuid "3baf7067-2b9b-46ce-8316-a042f24eba45")
@@ -4831,9 +4834,11 @@
 		)
 		(pin "24"
 			(uuid "d9cc2595-f6a7-4362-b947-cf7176e6cd69")
+			(alternate "SYS_SWDIO")
 		)
 		(pin "13"
 			(uuid "b0ffd398-fa68-439e-a6c1-ee650ec80d7d")
+			(alternate "SPI1_MISO")
 		)
 		(pin "5"
 			(uuid "ef1c86b0-a55f-4055-86b7-ca438de87bfd")
@@ -4858,24 +4863,28 @@
 		)
 		(pin "11"
 			(uuid "a5e2a53a-221a-43e1-892f-588a49b5c05d")
+			(alternate "SPI1_NSS")
 		)
 		(pin "32"
 			(uuid "6a0c170a-7e78-4255-a9c9-e7227917e015")
 		)
 		(pin "26"
 			(uuid "a8da4046-68fa-40d0-8d58-19850fdba62e")
+			(alternate "FDCAN1_RX")
 		)
 		(pin "16"
 			(uuid "aa2c2349-c710-44d0-84a9-1c7e80ea77df")
 		)
 		(pin "12"
 			(uuid "ff3267cd-88fe-4f1e-a59f-0240486d5426")
+			(alternate "SPI1_SCK")
 		)
 		(pin "10"
 			(uuid "8e7bc2e0-6718-49e9-9456-d6fa3149cbf5")
 		)
 		(pin "6"
 			(uuid "89082bbc-bcc1-40d2-b7d3-68c97e3cea34")
+			(alternate "LPUART2_RTS")
 		)
 		(pin "9"
 			(uuid "45dab690-2676-4357-b1d9-51467114e1fe")
@@ -4885,9 +4894,11 @@
 		)
 		(pin "25"
 			(uuid "6c1dcbd4-6750-498b-8f10-c3498b37b032")
+			(alternate "SYS_SWCLK")
 		)
 		(pin "27"
 			(uuid "586f1ccc-9b7f-480f-aa4d-d0ef4ef49af8")
+			(alternate "FDCAN1_TX")
 		)
 		(pin "22"
 			(uuid "bae65994-9f8b-420b-8ef6-5bed565aca41")
