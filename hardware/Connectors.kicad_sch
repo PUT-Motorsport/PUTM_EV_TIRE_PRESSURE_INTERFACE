@@ -3014,7 +3014,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/1070/1/eEH.pdf"
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3026,6 +3026,28 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser part number" "306-S4B-EHLFSN"
+			(at 152.4 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser  price/stock" "https://www.mouser.pl/pl/ProductDetail/JST-Commercial/S4B-EHLFSN?qs=QpmGXVUTftGwDl%2F7pWjViw%3D%3D"
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3217,7 +3239,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0L2BT.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD5V0S2BT-Q.pdf"
 			(at 110.49 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3228,7 +3250,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
+		(property "Description" "ESD Protection Diodes / TVS Diodes PESD5V0S2BT-Q/SOT23/TO-236AB"
 			(at 114.3 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3239,7 +3261,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD5V0L2BT-T/R"
+		(property "Mouser Part Number" "771-PESD5V0S2BT-QR"
 			(at 114.3 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3250,7 +3272,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Nexperia/PESD5V0L2BT215?qs=LOCUfHb8d9sw%2B%2FcZzpNtzw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/Nexperia/PESD5V0S2BT-QR?qs=3Rah4i%252BhyCEGtuWGhtDKxg%3D%3D"
 			(at 114.3 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3861,7 +3883,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/FTSH-107-01-L-D-K?qs=%252BZP6%2F%252BtExtDf9U3LcTl7MA%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/en/ProductDetail/Semtech/UCLAMP3301D.TCT?qs=rBWM4%252BvDhIcs1MIPFV0RMQ%3D%3D"
 			(at 179.07 696.52 0)
 			(hide yes)
 			(show_name no)

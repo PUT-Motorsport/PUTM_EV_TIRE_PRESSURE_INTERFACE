@@ -4523,7 +4523,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM033R6YA104ME14_01A-1982036.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TAIYO_YUDEN_03-08-2024_MAJCU168BB7104KTEA01_SS.pdf"
 			(at 175.26 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4556,7 +4556,7 @@
 				)
 			)
 		)
-		(property "Manufacturer_Part_Number" "C0603C104J3RACTU"
+		(property "Manufacturer_Part_Number" "MAJCU168BB7104KTEA01"
 			(at 175.26 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4578,7 +4578,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "80-C0603C104J3R"
+		(property "Mouser Part Number" "963-MAJCU168BB7104KT"
 			(at 175.26 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4589,7 +4589,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM033R6YA104ME14D?qs=P%2FC4Eoq9CDwjSVlAMBrT%252Bw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MAJCU168BB7104KTEA01?qs=ZcfC38r4PovJ4zMRJqa98Q%3D%3D"
 			(at 175.26 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -4710,7 +4710,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM188R6YA106MA73_01A-1985794.pdf"
+		(property "Datasheet" "https://weblib.samsungsem.com/mlcc/mlcc-ec-data-sheet.do?partNumber=CL10A106MA8NRW"
 			(at 124.46 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4732,7 +4732,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R6YA106MA73J?qs=5aG0NVq1C4xLSwNPdfnaYg%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/Samsung-Electro-Mechanics/CL10A106MA8NRWC?qs=ST9lo4GX8V1EuSEdq9MnFw%3D%3D"
 			(at 124.46 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4745,6 +4745,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 124.46 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser part number" "187-CL10A106MA8NRWC"
+			(at 124.46 132.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5147,8 +5158,9 @@
 				)
 			)
 		)
-		(property "Author" ""
-			(at 66.04 72.39 0)
+		(property "Mouser part number" "660-RK73B1JTTD104J"
+			(at 68.58 68.58 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5299,7 +5311,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2cc9c516-8fad-4a6c-8152-b1df7186f7b8")
 		(property "Reference" "C16"
 			(at 107.95 65.4938 0)
@@ -5367,8 +5378,9 @@
 				)
 			)
 		)
-		(property "Author" ""
-			(at 105.41 67.31 0)
+		(property "Mouser part number" "647-UCM1V220MCL1GS"
+			(at 106.68 63.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5950,7 +5962,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM033R6YA104ME14_01A-1982036.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TAIYO_YUDEN_03-08-2024_MAJCU168BB7104KTEA01_SS.pdf"
 			(at 160.02 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -5972,19 +5984,9 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM033R6YA104ME14D?qs=P%2FC4Eoq9CDwjSVlAMBrT%252Bw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MAJCU168BB7104KTEA01?qs=ZcfC38r4PovJ4zMRJqa98Q%3D%3D"
 			(at 160.02 132.08 0)
 			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" ""
-			(at 160.02 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6025,6 +6027,17 @@
 		)
 		(property "Sim.Pins" ""
 			(at 160.02 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser  part number" "963-MAJCU168BB7104KT"
+			(at 160.02 132.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6501,7 +6514,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4d51d707-8b83-4c14-96f0-61aaf61ca63b")
 		(property "Reference" "Q1"
 			(at 66.04 49.53 90)
@@ -6556,8 +6568,9 @@
 				)
 			)
 		)
-		(property "Sim.Pins" ""
-			(at 66.04 58.42 0)
+		(property "Mouser part number" "78-SI2347DS-T1-GE3"
+			(at 60.96 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7001,7 +7014,18 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TDK/C2012X5R1V226M125AC?qs=6JAMGB%252BEdkyUk0d2Mu2IrQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/ZRA21CR61E226ME01L?qs=B6kkDfuK7%2FC%252ByJzKLIUJNg%3D%3D"
+			(at 170.18 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser part number" "81-ZRA21CR61E226ME1L"
 			(at 170.18 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7150,7 +7174,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/4/ZRA21CR61E226ME01_01A.pdf"
 			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7205,7 +7229,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "810-C2012X5R1V226MAC"
+		(property "Mouser Part Number" "81-ZRA21CR61E226ME1L"
 			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7216,7 +7240,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TDK/C2012X5R1V226M125AC?qs=6JAMGB%252BEdkyUk0d2Mu2IrQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/ZRA21CR61E226ME01L?qs=B6kkDfuK7%2FC%252ByJzKLIUJNg%3D%3D"
 			(at 163.83 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7477,7 +7501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 115.57 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7488,7 +7512,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM188R6YA106MA73_01A-1985794.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 115.57 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7510,7 +7534,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R6YA106MA73J?qs=5aG0NVq1C4xLSwNPdfnaYg%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/TDK/C2012X5R1V106M085AC?qs=6JAMGB%252BEdkxr1eO4uwxtVw%3D%3D"
 			(at 115.57 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -7521,8 +7545,9 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "Mouser part number" "810-C2012X5R1V106M0C"
 			(at 115.57 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7631,7 +7656,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM033R6YA104ME14_01A-1982036.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TAIYO_YUDEN_03-08-2024_MAJCU168BB7104KTEA01_SS.pdf"
 			(at 134.62 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7653,7 +7678,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM033R6YA104ME14D?qs=P%2FC4Eoq9CDwjSVlAMBrT%252Bw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MAJCU168BB7104KTEA01?qs=ZcfC38r4PovJ4zMRJqa98Q%3D%3D"
 			(at 134.62 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7664,8 +7689,9 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "Mouser  part number" "963-MAJCU168BB7104KT"
 			(at 134.62 132.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7773,7 +7799,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/datasheet/2/258/MMXZ5223B_MMXZ5259B_SOD_323_-3365927.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mm3z2v4t1-d.pdf"
 			(at 74.93 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -7795,7 +7821,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/MMXZ5239B-TP?qs=ZNK0BnemlqF4shEFWztjGQ%3D%3D"
+		(property "Mouser Price/Stock" "https://eu.mouser.com/ProductDetail/Micro-Commercial-Components-MCC/MMXhttps://www.mouser.pl/pl/ProductDetail/onsemi/SZMM3Z9V1T1G?qs=PJJcWtbOkNWOE7SiPfniZQ%3D%3DZ5239B-TP?qs=ZNK0BnemlqF4shEFWztjGQ%3D%3D"
 			(at 74.93 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7806,8 +7832,9 @@
 				)
 			)
 		)
-		(property "Sim.Device" ""
+		(property "Mouser part number" "863-SZMM3Z9V1T1G"
 			(at 74.93 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7901,7 +7928,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7a2ae4b0-8b7c-42b7-a314-9161704e24cd")
 		(property "Reference" "C14"
 			(at 87.63 65.4938 0)
@@ -7969,8 +7995,9 @@
 				)
 			)
 		)
-		(property "Author" ""
-			(at 85.09 67.31 0)
+		(property "Mouser part number" "647-UCM1V220MCL1GS"
+			(at 85.09 62.23 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8259,7 +8286,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Vishay-Beyschlag/MFU0805FF00500P500?qs=Ok6sVjDQtqYT6Kr8F6CzeQ%3D%3D"
+		(property "Mouser part number" "594-MFU0805FF00500P1"
 			(at 49.53 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -8270,8 +8297,9 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/Vishay-Beyschlag/MFU0805FF00500P100?qs=oI046glRuru%2F1tLHYz8V8Q%3D%3D"
 			(at 49.53 48.26 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8379,7 +8407,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/4/ZRA21CR61E226ME01_01A.pdf"
 			(at 233.68 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8434,7 +8462,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "810-C2012X5R1V226MAC"
+		(property "Mouser Part Number" "81-ZRA21CR61E226ME1L"
 			(at 233.68 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8445,7 +8473,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TDK/C2012X5R1V226M125AC?qs=6JAMGB%252BEdkyUk0d2Mu2IrQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/ZRA21CR61E226ME01L?qs=B6kkDfuK7%2FC%252ByJzKLIUJNg%3D%3D"
 			(at 233.68 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8878,7 +8906,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM033R6YA104ME14_01A-1982036.pdf"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TAIYO_YUDEN_03-08-2024_MAJCU168BB7104KTEA01_SS.pdf"
 			(at 214.63 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8889,7 +8917,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 214.63 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8900,7 +8928,51 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM033R6YA104ME14D?qs=P%2FC4Eoq9CDwjSVlAMBrT%252Bw%3D%3D"
+		(property "Manufacturer_Name" "--"
+			(at 214.63 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAJCU168BB7104KTEA01"
+			(at 214.63 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "In Order" ""
+			(at 214.63 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part Number" "963-MAJCU168BB7104KT"
+			(at 214.63 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MAJCU168BB7104KTEA01?qs=ZcfC38r4PovJ4zMRJqa98Q%3D%3D"
 			(at 214.63 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8912,46 +8984,6 @@
 			)
 		)
 		(property "Author" ""
-			(at 214.63 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 214.63 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 214.63 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 214.63 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
 			(at 214.63 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9404,7 +9436,7 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "Mouser part number" "576-SMF28CA"
 			(at 49.53 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9513,7 +9545,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/4/ZRA21CR61E226ME01_01A.pdf"
 			(at 243.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9568,7 +9600,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "810-C2012X5R1V226MAC"
+		(property "Mouser Part Number" "81-ZRA21CR61E226ME1L"
 			(at 243.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9579,7 +9611,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TDK/C2012X5R1V226M125AC?qs=6JAMGB%252BEdkyUk0d2Mu2IrQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/ZRA21CR61E226ME01L?qs=B6kkDfuK7%2FC%252ByJzKLIUJNg%3D%3D"
 			(at 243.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9721,7 +9753,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/4/ZRA21CR61E226ME01_01A.pdf"
 			(at 254 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9776,7 +9808,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "810-C2012X5R1V226MAC"
+		(property "Mouser Part Number" "81-ZRA21CR61E226ME1L"
 			(at 254 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9787,7 +9819,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TDK/C2012X5R1V226M125AC?qs=6JAMGB%252BEdkyUk0d2Mu2IrQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/ZRA21CR61E226ME01L?qs=B6kkDfuK7%2FC%252ByJzKLIUJNg%3D%3D"
 			(at 254 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9919,7 +9951,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 95.25 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9930,7 +9962,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM188R6YA106MA73_01A-1985794.pdf"
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
 			(at 95.25 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9952,7 +9984,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R6YA106MA73J?qs=5aG0NVq1C4xLSwNPdfnaYg%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/pl/ProductDetail/TDK/C2012X5R1V106M085AC?qs=6JAMGB%252BEdkxr1eO4uwxtVw%3D%3D"
 			(at 95.25 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -9963,8 +9995,9 @@
 				)
 			)
 		)
-		(property "Author" ""
+		(property "Mouser part number" "810-C2012X5R1V106M0C"
 			(at 95.25 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

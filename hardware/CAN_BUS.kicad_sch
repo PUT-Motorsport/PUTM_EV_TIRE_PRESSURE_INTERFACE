@@ -3234,6 +3234,17 @@
 				)
 			)
 		)
+		(property "Mouser price / stock" "https://www.mouser.pl/pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
+			(at 99.06 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "775277c2-b24c-4c1c-99c2-db9639104461")
 		)
@@ -3326,6 +3337,17 @@
 				)
 			)
 		)
+		(property "Mouser price / stock" "https://www.mouser.pl/pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
+			(at 167.64 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f2340780-6b3d-4159-b7fd-b186e46ecf91")
 		)
@@ -3383,7 +3405,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/4/GRM21BR60J476ME01_01A.pdf"
 			(at 154.94 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3405,8 +3427,20 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
+		(property "Mouser Part Number" "81-GRM21BR60J476M01L"
 			(at 154.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/GRM21BR60J476ME01L?qs=u16ybLDytRYYQtTToF3RWA%3D%3D"
+			(at 154.94 59.69 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3474,7 +3508,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/4/GRM21BR60J476ME01_01A.pdf"
 			(at 90.17 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3496,8 +3530,20 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
+		(property "Mouser Part Number" "81-GRM21BR60J476M01L"
 			(at 90.17 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/GRM21BR60J476ME01L?qs=u16ybLDytRYYQtTToF3RWA%3D%3D"
+			(at 90.17 100.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3564,7 +3610,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/4/GRM21BR60J476ME01_01A.pdf"
 			(at 154.94 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -3586,8 +3632,20 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
+		(property "Mouser Part Number" "81-GRM21BR60J476M01L"
 			(at 154.94 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/GRM21BR60J476ME01L?qs=u16ybLDytRYYQtTToF3RWA%3D%3D"
+			(at 154.94 48.26 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3656,7 +3714,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/4/GRM21BR60J476ME01_01A.pdf"
 			(at 107.95 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3678,8 +3736,20 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
+		(property "Mouser Part Number" "81-GRM21BR60J476M01L"
 			(at 107.95 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/GRM21BR60J476ME01L?qs=u16ybLDytRYYQtTToF3RWA%3D%3D"
+			(at 107.95 100.33 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3715,7 +3785,7 @@
 		(dnp no)
 		(uuid "3bcca658-15b4-4621-97e4-ed75c391dfa6")
 		(property "Reference" "C46"
-			(at 186.69 62.23 90)
+			(at 185.42 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3745,7 +3815,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.pl/datasheet/3/76/2/GCJ188R71E103KA01_02D.pdf"
 			(at 186.69 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -3767,8 +3837,20 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
-			(at 186.69 59.69 0)
+		(property "Mouser Part Number" "81-GCJ188R71E103KA1D"
+			(at 184.15 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/GCJ188R71E103KA01D?qs=VNXXsjD6WfWpkebh3gRilw%3D%3D"
+			(at 186.69 59.69 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4104,6 +4186,17 @@
 				)
 			)
 		)
+		(property "Mouser priice/stock" "https://www.mouser.pl/pl/ProductDetail/Analog-Devices/ADM3057EBRWZ?qs=PqoDHHvF649%2FWAcdgp0Vvw%3D%3D"
+			(at 143.51 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "4489f066-f3fa-4b14-81a6-7790abd25b53")
 		)
@@ -4240,6 +4333,17 @@
 			)
 		)
 		(property "Mouser Part Number" "623-2508052027Y1"
+			(at 171.45 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price / stock" "https://www.mouser.pl/pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 171.45 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -4487,8 +4591,20 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
-			(at 109.22 107.95 0)
+		(property "Mouser Part Number" "279-1-72225-5"
+			(at 111.76 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price / stock" "https://www.mouser.pl/pl/ProductDetail/TE-Connectivity-Holsworthy/CRGSP0603F100K?qs=Naspt24KZtlrfquNf0AL%252BQ%3D%3D"
+			(at 109.22 107.95 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4987,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TAIYO_YUDEN_03-08-2024_MAJCU168BB7104KTEA01_SS.pdf"
 			(at 76.2 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -5009,8 +5125,20 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
+		(property "Mouser Part Number" "963-MAJCU168BB7104KT"
 			(at 76.2 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MAJCU168BB7104KTEA01?qs=ZcfC38r4PovJ4zMRJqa98Q%3D%3D"
+			(at 76.2 113.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5098,8 +5226,20 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
+		(property "Mouser Part Number" "81-GCJ188R71E103KA1D"
+			(at 82.55 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/Murata-Electronics/GCJ188R71E103KA01D?qs=VNXXsjD6WfWpkebh3gRilw%3D%3D"
 			(at 83.82 113.03 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5189,6 +5329,17 @@
 		)
 		(property "Mouser Part Number" "623-2508052027Y1"
 			(at 99.06 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price / stock" "https://www.mouser.pl/pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
+			(at 99.06 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5335,7 +5486,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/TAIYO_YUDEN_03-08-2024_MAJCU168BB7104KTEA01_SS.pdf"
 			(at 186.69 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5357,8 +5508,20 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "."
+		(property "Mouser Part Number" "963-MAJCU168BB7104KT"
 			(at 186.69 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/TAIYO-YUDEN/MAJCU168BB7104KTEA01?qs=ZcfC38r4PovJ4zMRJqa98Q%3D%3D"
+			(at 186.69 48.26 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

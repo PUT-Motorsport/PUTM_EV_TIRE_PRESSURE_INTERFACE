@@ -1408,6 +1408,17 @@
 				)
 			)
 		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/Vishay/CRCW06034K70FKEA?qs=4E3O%252BEEZcdLDG%2FSk4GmlWQ%3D%3D"
+			(at 134.62 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a9a56014-3a17-4c97-be5c-c481dc6b5c72")
 		)
@@ -1478,6 +1489,28 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket with one card detection pin"
+			(at 163.83 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser part number" "798-DM3AT-SF-PEJM5"
+			(at 163.83 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/Hirose-Connector/DM3AT-SF-PEJM5?qs=LZSZKJVF%252B2WTDKp%252BR7IYAQ%3D%3D"
 			(at 163.83 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -1602,6 +1635,17 @@
 				)
 			)
 		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/Vishay/CRCW06034K70FKEA?qs=4E3O%252BEEZcdLDG%2FSk4GmlWQ%3D%3D"
+			(at 118.11 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ed2fc86c-2b04-4b66-99ea-6033bfa74bd1")
 		)
@@ -1683,6 +1727,17 @@
 		)
 		(property "Mouser Part Number" "71-CRCW0603-4.7K-E3"
 			(at 123.19 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/Vishay/CRCW06034K70FKEA?qs=4E3O%252BEEZcdLDG%2FSk4GmlWQ%3D%3D"
+			(at 123.19 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1851,6 +1906,17 @@
 		)
 		(property "Mouser Part Number" "71-CRCW0603-4.7K-E3"
 			(at 128.27 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser price/stock" "https://www.mouser.pl/pl/ProductDetail/Vishay/CRCW06034K70FKEA?qs=4E3O%252BEEZcdLDG%2FSk4GmlWQ%3D%3D"
+			(at 128.27 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
