@@ -3795,7 +3795,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 186.69 64.77 90)
+			(at 186.69 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4569,7 +4569,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.koaspeer.com/pdfs/RK73B.pdf"
 			(at 109.22 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4591,7 +4591,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "279-1-72225-5"
+		(property "Mouser Part Number" "660-RK73B1JTTD104J"
 			(at 111.76 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4602,7 +4602,7 @@
 				)
 			)
 		)
-		(property "Mouser price / stock" "https://www.mouser.pl/pl/ProductDetail/TE-Connectivity-Holsworthy/CRGSP0603F100K?qs=Naspt24KZtlrfquNf0AL%252BQ%3D%3D"
+		(property "Mouser price / stock" "https://www.mouser.pl/en/ProductDetail/KOA-Speer/RK73B1JTTD104J?qs=sGAEpiMZZMvdGkrng054t2HaaJFon%252B0pQ1vDU7rpyKc%3D"
 			(at 109.22 107.95 90)
 			(hide yes)
 			(show_name no)

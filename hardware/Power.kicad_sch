@@ -3230,6 +3230,15 @@
 		(color 0 0 0 0)
 		(uuid "ff883f50-0bdf-431c-a563-fb54952f6c33")
 	)
+	(bus_entry
+		(at 268.224 114.3)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ffc7103-8f87-4f42-8a02-95233ea6ff28")
+	)
 	(wire
 		(pts
 			(xy 160.02 115.57) (xy 160.02 116.84)
@@ -5147,7 +5156,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KOA-Speer/RK73B1JTTD104J?qs=sGAEpiMZZMvdGkrng054t2HaaJFon%252B0pQ1vDU7rpyKc%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/en/ProductDetail/KOA-Speer/RK73B1JTTD104J?qs=sGAEpiMZZMvdGkrng054t2HaaJFon%252B0pQ1vDU7rpyKc%3D"
 			(at 66.04 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -5672,7 +5681,7 @@
 				)
 			)
 		)
-		(property "Mouser Part Number" "603-RT0603DRE07100KL"
+		(property "Mouser Part Number" "660-RK73B1JTTD104J"
 			(at 224.79 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5683,7 +5692,7 @@
 				)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/KOA-Speer/RK73B1JTTD104J?qs=sGAEpiMZZMvdGkrng054t2HaaJFon%252B0pQ1vDU7rpyKc%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.pl/en/ProductDetail/KOA-Speer/RK73B1JTTD104J?qs=sGAEpiMZZMvdGkrng054t2HaaJFon%252B0pQ1vDU7rpyKc%3D"
 			(at 224.79 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9438,6 +9447,7 @@
 		)
 		(property "Mouser part number" "576-SMF28CA"
 			(at 49.53 67.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
